@@ -8,7 +8,7 @@ A repository for the game i created for the Software Development 2 Module, it is
 </p>
 
 <p align="center">
-  <b>2D platform game inspired by classic Mario-style gameplay</b>
+  <b>A 2D Platform Game</b>
 </p>
 
 ---
