@@ -3,6 +3,15 @@ A repository for a game i created for the Software Development 2 Module, it is a
 
 ---
 
+<p align="center">
+  <img width="220" src="https://i.postimg.cc/mZc9XYJY/Brew-Shift-Logo.png"> replace for game logo
+</p>
+
+<p align="center">
+  <b>2D platform game inspired by classic Mario-style gameplay</b>
+</p>
+
+---
 Downloaded the following free Sprite Assests to use in unity:
 <img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
