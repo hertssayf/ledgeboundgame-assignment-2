@@ -20,3 +20,29 @@ Refrence Videos to help with developing the game:
 https://www.youtube.com/watch?v=lIZnIFqai2I&list=PLXG1jSmcT-NXIHOPL8cZGXvDEGZ3gzurt&index=1
 - Making a 2D Platformer In Unity 6 - Episode 1 (Full Course)
 Channel: Unity Unlocked
+
+---
+
+**Target audience**
+- Casual gamers
+- Students
+- Fans of classic platform games
+
+**Considerations**
+- Smooth controls
+- Balanced level progression
+- Fair obstacle placement
+- Clear win and lose conditions
+
+**Pros**
+- Suitable for an individual project
+- Strong fit for Unity development
+- Easy to demonstrate game states, rules and mechanics
+- Allows clear testing of movement and collisions
+
+**Cons**
+- Platforming movement needs careful balancing
+- Collision bugs can affect playability
+- Level design takes time to refine
+
+---
