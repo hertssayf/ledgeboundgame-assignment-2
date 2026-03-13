@@ -88,6 +88,11 @@ A platform game where the player solves movement-based puzzles to progress.
 
 ---
 
+### Project Decision: 2D Side-Scrolling Platformer
+After internal deliberation I made the decision of a 2D side scrolling platformer as it contains alot of positives listed above.
+
+---
+
 Downloaded the following free Sprite Assests to use in unity:
 <img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
