@@ -47,3 +47,49 @@ Channel: Unity Unlocked
 - Level design takes time to refine
 
 ---
+
+### Endless Runner
+A game where the player survives as long as possible while automatically moving forward and avoiding obstacles.
+
+**Target audience**
+- Casual players
+- Mobile players
+- People who prefer short game sessions
+
+**Considerations**
+- Speed balancing
+- Obstacle generation
+- Score and replayability
+
+**Pros**
+- Simple concept
+- High replay value
+- Easy to understand
+
+**Cons**
+- Can become repetitive
+- Less opportunity for structured level design
+
+---
+
+### Puzzle Platformer
+A platform game where the player solves movement-based puzzles to progress.
+
+**Target audience**
+- Players who enjoy problem-solving
+- More strategic players
+
+**Considerations**
+- Puzzle clarity
+- Difficulty balancing
+- Learning curve
+
+**Pros**
+- Adds more depth
+- Strong level design focus
+
+**Cons**
+- More complex to design
+- Harder to keep the scope manageable
+
+---
