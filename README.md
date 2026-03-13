@@ -89,7 +89,7 @@ A platform game where the player solves movement-based puzzles to progress.
 ---
 
 ### Project Decision: 2D Side-Scrolling Platformer
-After internal deliberation I made the decision of a 2D side scrolling platformer as it contains alot of positives listed above.
+After internal deliberation I made the decision of a 2D side scrolling platformer as it contains alot of positives listed above. link Pitch here.
 
 ---
 
