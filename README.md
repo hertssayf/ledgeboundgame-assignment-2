@@ -15,6 +15,9 @@ A repository for the game i created for the Software Development 2 Module, it is
 
 ## Reviewing Project Ideas
 
+### 2D Side-Scrolling Platformer
+A game where the player moves from left to right through levels, jumping across platforms, avoiding hazards and reaching a end goal.
+
 **Target audience**
 - Casual gamers
 - Students
@@ -81,7 +84,7 @@ A platform game where the player solves movement-based puzzles to progress.
 
 **Cons**
 - More complex to design
-- Harder to keep the scope manageable
+- Harder to keep the project scope manageable
 
 ---
 
