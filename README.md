@@ -13,7 +13,7 @@ A repository for the game i created for the Software Development 2 Module, it is
 
 ---
 
-## Reviewing Available Project Ideas
+## Reviewing Project Ideas
 
 **Target audience**
 - Casual gamers
