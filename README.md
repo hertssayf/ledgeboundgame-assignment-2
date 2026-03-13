@@ -4,7 +4,7 @@ A repository for a game i created for the Software Development 2 Module, it is a
 ---
 
 <p align="center">
-  <img width="220" src="https://i.postimg.cc/3Rm8qn4W/Ledge-Bound-13-03-2026.png">
+  <img width="300" src="https://i.postimg.cc/3Rm8qn4W/Ledge-Bound-13-03-2026.png">
 </p>
 
 <p align="center">
