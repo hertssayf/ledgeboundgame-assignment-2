@@ -93,6 +93,27 @@ After internal deliberation I made the decision of a 2D side scrolling platforme
 
 ---
 
+## Reviewing Target Audience
+
+### Casual Gamers
+Characteristics:
+- Prefer simple controls
+- Want enjoyable short play sessions
+- Expect quick understanding of the game
+
+### Nostalgic Platform Game Fans
+Characteristics:
+- Familiar with platform games
+- Often enjoy nostalgic games inspired by older titles
+- Prefer addictive but easy-to-play experiences
+
+### Students/Young Adults Aged 18-25
+Characteristics:
+- Notice movement quality and jump accuracy
+- Appreciate fair challenge and good level flow
+- Enjoy replayable platforming mechanics
+
+---
 Downloaded the following free Sprite Assests to use in unity:
 <img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
