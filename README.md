@@ -12,16 +12,7 @@ A repository for the game i created for the Software Development 2 Module, it is
 </p>
 
 ---
-Downloaded the following free Sprite Assests to use in unity:
-<img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
-Refrence Videos to help with developing the game:
-
-https://www.youtube.com/watch?v=lIZnIFqai2I&list=PLXG1jSmcT-NXIHOPL8cZGXvDEGZ3gzurt&index=1
-- Making a 2D Platformer In Unity 6 - Episode 1 (Full Course)
-Channel: Unity Unlocked
-
----
 ## Reviewing Available Project Ideas
 
 **Target audience**
@@ -91,5 +82,16 @@ A platform game where the player solves movement-based puzzles to progress.
 **Cons**
 - More complex to design
 - Harder to keep the scope manageable
+
+---
+
+Downloaded the following free Sprite Assests to use in unity:
+<img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
+
+Refrence Videos to help with developing the game:
+
+https://www.youtube.com/watch?v=lIZnIFqai2I&list=PLXG1jSmcT-NXIHOPL8cZGXvDEGZ3gzurt&index=1
+- Making a 2D Platformer In Unity 6 - Episode 1 (Full Course)
+Channel: Unity Unlocked
 
 ---
