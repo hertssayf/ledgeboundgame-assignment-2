@@ -90,7 +90,7 @@ A platform game where the player solves movement-based puzzles to progress.
 
 ### Project Decision: 2D Side-Scrolling Platformer
 After internal deliberation I made the decision of a 2D side scrolling platformer as it fits well with unity development, and i wanted to try use unity for the first time.
-I have created a powerpoint pitch for the game describing essential fundamentals here.[SD2_Platform_Game_Pitch.pptx](./SD2_Platform_Game_Pitch.pptx)
+I have created a powerpoint pitch for the game describing essential fundamentals here: [SD2_Platform_Game_Pitch.pptx](./SD2_Platform_Game_Pitch.pptx)
 
 ---
 
