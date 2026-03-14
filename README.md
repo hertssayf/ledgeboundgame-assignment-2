@@ -118,6 +118,56 @@ Characteristics:
 - Enjoy replayable platforming mechanics
 
 ---
+
+## Project Aim and Objectives
+
+### Aim
+To develop a functional 2D side-scrolling platform game in which the player runs, jumps, avoids hazards(including enemies), and reaches the end of each level.
+
+### Objectives
+- Identify user and system requirements
+- Produce scrum-style user stories and a prioritised backlog
+- Design the gameplay, levels, characters, environment and UI
+- Use Unity and C# to implement the game
+- Track development progress using backlog reviews
+- Test the game against requirements, functions and features
+- Produce a playable prototype suitable for demonstration
+
+---
+
+## Overall Specification – Ledge Bound
+
+### Core User Requirements
+- The player must be able to run and jump smoothly
+- The player must be able to move through side-scrolling levels
+- The game must contain platforms, gaps and hazards
+- The game must include enemy monster sprites (slimes)
+- The game must include multiple levels
+- The game must contain win and lose conditions
+- The UI must display lives and level number
+- The game should provide sound and visual feedback
+
+### Optional User Requirements
+- Checkpoints
+- Pause menu
+- Additional level themes
+- Improved enemy movement
+- Animated effects
+- Include collectible cosmetic items
+- Add a score function
+- Night and day backgrounds
+
+### Acceptance Criteria
+The project will be considered successful if:
+- The player can move and jump accurately
+- Platform and hazard collisions function correctly
+- Enemy monster interactions work correctly
+- At least one complete playable level is included
+- Win and lose conditions function correctly
+- The UI displays level and lives clearly
+
+---
+
 Downloaded the following free Sprite Assests to use in unity:
 <img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
