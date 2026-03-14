@@ -92,6 +92,7 @@ A platform game where the player solves movement-based puzzles to progress.
 After internal deliberation I made the decision of a 2D side scrolling platformer as it fits well with unity development, and i wanted to try use unity for the first time.
 The platformer structure also makes it easier to divide the game into manageable sections such as player movement, hazards, collectibles, level progression, state management and user interface.
 It allows the project to demonstrate the scrum software development lifecycle through requirements analysis, design, backlog planning, implementation, testing and review.
+
 I have created a powerpoint pitch for the game describing essential fundamentals here: [SD2_Platform_Game_Pitch.pptx](./SD2_Platform_Game_Pitch.pptx)
 
 ---
