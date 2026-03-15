@@ -200,7 +200,7 @@ The project will be considered successful if:
 
 ---
 
-## Scrum Style User Stories
+## Scrum Style User Stories:
 
 | User Story ID | Priority | User Story | Purpose / Justification |
 |---|---|---|---|
@@ -222,7 +222,7 @@ The project will be considered successful if:
 
 ---
 
-## Scrum Product Backlog
+## Scrum Product Backlog:
 
 | Backlog ID | Feature / Function | Priority | Description | Definition of Done | Evaluation / Justification | Test |
 |---|---|---|---|---|---|---|
