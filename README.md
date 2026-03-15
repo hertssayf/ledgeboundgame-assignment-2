@@ -168,6 +168,63 @@ The project will be considered successful if:
 
 ---
 
+## User and System Requirements
+
+### User Requirements
+- The game should be easy to understand and navigate
+- The controls should be responsive and consistent
+- Hazards and enemies should be clearly visible
+- The player should receive clear feedback when they fail or finish a level
+- Levels should become more challenging over time
+- The game should be enjoyable and replayable
+
+### System Requirements
+- The system shall allow the player to move left and right
+- The system shall allow the player to jump using keyboard input
+- The system shall detect collisions between the player and platforms
+- The system shall detect collisions between the player and hazards
+- The system shall detect collisions between the player and enemy monsters
+- The system shall allow the player to collect items
+- The system shall track level progress and lives
+- The system shall display menus and gameplay UI
+- The system shall support win and lose states
+- The system shall run on a desktop PC using keyboard controls
+
+### Non-Functional Requirements
+- The game should load quickly
+- The controls should respond without noticeable delay
+- The game should remain readable and visually clear
+- The code should be modular and maintainable
+- Scripts should be reusable where possible
+- The game should be easy to test and debug
+
+---
+
+## Scrum Style User Stories
+
+### High Priority Stories
+- As a player, I want to move left and right so that I can navigate through the level.
+- As a player, I want to jump smoothly so that I can cross gaps and reach platforms.
+- As a player, I want hazards to damage or reset me so that the game is more challenging.
+- As a player, I want monsters to act as obstacles so that the level feels more dangerous.
+- As a player, I want to reach an end goal so that I can finish the level.
+
+### Medium Priority Stories
+- As a player, I want lives so that mistakes have consequences.
+- As a player, I want cosmetic collectibles so that exploration feels rewarding.
+- As a player, I want level indicators so that I can track my progress.
+- As a player, I want sound and visual feedback so that actions feel satisfying.
+- As a player, I want a visually appealing background for each level so that the world feels more dynamic.
+
+### Lower Priority Stories
+- As a player, I want multiple levels so that the game has more replay value.
+- As a player, I want checkpoints so that longer levels feel fairer.
+- As a player, I want more advanced enemy behaviour so that later levels feel more difficult.
+- As a player, I want a shop with items that can be unlocked so that the game is more fun.
+- As a player, I want stars/items that can be collected on each level so that the game is more replayable
+
+---
+
 Downloaded the following free Sprite Assests to use in unity:
 <img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
