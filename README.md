@@ -257,9 +257,9 @@ The project will be considered successful if:
 | Main Menu | The player selects play | Playing | Selecting play starts the gameplay state. |
 | Playing | The player presses the pause button | Paused | Pausing temporarily stops gameplay. |
 | Paused | The player resumes the game | Playing | Resuming returns the player to gameplay. |
-| Playing | The player touches a hazard | Player Dead (Out of Lives) | Contact with a hazard causes a death state. |
-| Playing | The player touches an enemy | Player Dead (Out of Lives) | Contact with an enemy causes a death state. |
-| Playing | The player falls off the level | Player Dead (Out of Lives) | Falling off the stage causes level failure - a death state. |
+| Playing | The player touches a hazard | Player Dead | Contact with a hazard causes a death state. |
+| Playing | The player touches an enemy | Player Dead | Contact with an enemy causes a death state. |
+| Playing | The player falls off the level | Player Dead | Falling off the stage causes level failure - a death state. |
 | Player Dead | Lives remain | Retry | If the player still has lives left, they can retry or continue playing state with a life lost. |
 | Retry | The level restarts | Playing | Retrying returns the player to the beginning of the level gameplay. |
 | Player Dead | No lives remain | Game Over | If no lives remain, the game ends in a game over state. |
