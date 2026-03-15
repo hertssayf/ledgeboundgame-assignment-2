@@ -202,26 +202,23 @@ The project will be considered successful if:
 
 ## Scrum Style User Stories
 
-### High Priority Stories
-- As a player, I want to move left and right so that I can navigate through the level.
-- As a player, I want to jump smoothly so that I can cross gaps and reach platforms.
-- As a player, I want hazards to damage or reset me so that the game is more challenging.
-- As a player, I want monsters to act as obstacles so that the level feels more dangerous.
-- As a player, I want to reach an end goal so that I can finish the level.
-
-### Medium Priority Stories
-- As a player, I want lives so that mistakes have consequences.
-- As a player, I want cosmetic collectibles so that exploration feels rewarding.
-- As a player, I want level indicators so that I can track my progress.
-- As a player, I want sound and visual feedback so that actions feel satisfying.
-- As a player, I want a visually appealing background for each level so that the world feels more dynamic.
-
-### Lower Priority Stories
-- As a player, I want multiple levels so that the game has more replay value.
-- As a player, I want checkpoints so that longer levels feel fairer.
-- As a player, I want more advanced enemy behaviour so that later levels feel more difficult.
-- As a player, I want a shop with items that can be unlocked so that the game is more fun.
-- As a player, I want stars/items that can be collected on each level so that the game is more replayable
+| User Story ID | Priority | User Story | Purpose / Justification |
+|---|---|---|---|
+| US1 | High | As a player, I want to move left and right so that I can navigate through the level. | This is a core mechanic required for all gameplay and level traversal. |
+| US2 | High | As a player, I want to jump smoothly so that I can cross gaps and reach platforms. | Jumping is essential in a platform game and supports progression through the level. |
+| US3 | High | As a player, I want hazards to damage or reset me so that the game is more challenging. | Hazards introduce risk and create meaningful fail conditions. |
+| US4 | High | As a player, I want monsters to act as obstacles so that the level feels more dangerous. | Enemies make the gameplay more dynamic and challenging than static hazards alone. |
+| US5 | High | As a player, I want to reach an end goal so that I can finish the level. | A clear goal is needed so the player understands how to complete the stage. |
+| US6 | Medium | As a player, I want lives so that mistakes have consequences. | A lives system makes failure meaningful and supports the retry/game over structure. |
+| US7 | Medium | As a player, I want cosmetic collectibles so that exploration feels rewarding. | Collectibles encourage exploration and improve replayability. |
+| US8 | Medium | As a player, I want level indicators so that I can track my progress. | Level indicators provide useful feedback and help the player understand progression. |
+| US9 | Medium | As a player, I want sound and visual feedback so that actions feel satisfying. | Feedback improves responsiveness and makes interactions feel clearer and more polished. |
+| US10 | Medium | As a player, I want a visually appealing background for each level so that the world feels more dynamic. | Background design strengthens presentation and helps levels feel more distinct. |
+| US11 | Low | As a player, I want multiple levels so that the game has more replay value. | Multiple levels add progression and increase the amount of playable content. |
+| US12 | Low | As a player, I want checkpoints so that longer levels feel fairer. | Checkpoints reduce frustration and improve usability in harder or longer stages. |
+| US13 | Low | As a player, I want more advanced enemy behaviour so that later levels feel more difficult. | More advanced enemy logic can make later stages feel more varied and demanding. |
+| US14 | Low | As a player, I want a shop with items that can be unlocked so that the game is more fun. | A shop system is an optional extension that can increase depth and player motivation. |
+| US15 | Low | As a player, I want stars/items that can be collected on each level so that the game is more replayable. | Extra items create optional completion goals and encourage replay. |
 
 ---
 
