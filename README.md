@@ -204,21 +204,48 @@ The project will be considered successful if:
 
 | User Story ID | Priority | User Story | Purpose / Justification |
 |---|---|---|---|
-| US1 | High | As a player, I want to move left and right so that I can navigate through the level. | This is a core mechanic required for all gameplay and level traversal. |
-| US2 | High | As a player, I want to jump smoothly so that I can cross gaps and reach platforms. | Jumping is essential in a platform game and supports progression through the level. |
-| US3 | High | As a player, I want hazards to damage or reset me so that the game is more challenging. | Hazards introduce risk and create meaningful fail conditions. |
-| US4 | High | As a player, I want monsters to act as obstacles so that the level feels more dangerous. | Enemies make the gameplay more dynamic and challenging than static hazards alone. |
-| US5 | High | As a player, I want to reach an end goal so that I can finish the level. | A clear goal is needed so the player understands how to complete the stage. |
-| US6 | Medium | As a player, I want lives so that mistakes have consequences. | A lives system makes failure meaningful and supports the retry/game over structure. |
-| US7 | Medium | As a player, I want cosmetic collectibles so that exploration feels rewarding. | Collectibles encourage exploration and improve replayability. |
-| US8 | Medium | As a player, I want level indicators so that I can track my progress. | Level indicators provide useful feedback and help the player understand progression. |
-| US9 | Medium | As a player, I want sound and visual feedback so that actions feel satisfying. | Feedback improves responsiveness and makes interactions feel clearer and more polished. |
-| US10 | Medium | As a player, I want a visually appealing background for each level so that the world feels more dynamic. | Background design strengthens presentation and helps levels feel more distinct. |
-| US11 | Low | As a player, I want multiple levels so that the game has more replay value. | Multiple levels add progression and increase the amount of playable content. |
-| US12 | Low | As a player, I want checkpoints so that longer levels feel fairer. | Checkpoints reduce frustration and improve usability in harder or longer stages. |
-| US13 | Low | As a player, I want more advanced enemy behaviour so that later levels feel more difficult. | More advanced enemy logic can make later stages feel more varied and demanding. |
-| US14 | Low | As a player, I want a shop with items that can be unlocked so that the game is more fun. | A shop system is an optional extension that can increase depth and player motivation. |
-| US15 | Low | As a player, I want stars/items that can be collected on each level so that the game is more replayable. | Extra items create optional completion goals and encourage replay. |
+| US.1 | High | As a player, I want to move left and right so that I can navigate through the level. | This is a core mechanic required for all gameplay and level traversal. |
+| US.2 | High | As a player, I want to jump smoothly so that I can cross gaps and reach platforms. | Jumping is essential in a platform game and supports progression through the level. |
+| US.3 | High | As a player, I want hazards to damage or reset me so that the game is more challenging. | Hazards introduce risk and create meaningful fail conditions. |
+| US.4 | High | As a player, I want monsters to act as obstacles so that the level feels more dangerous. | Enemies make the gameplay more dynamic and challenging than static hazards alone. |
+| US.5 | High | As a player, I want to reach an end goal so that I can finish the level. | A clear goal is needed so the player understands how to complete the stage. |
+| US.6 | Medium | As a player, I want lives so that mistakes have consequences. | A lives system makes failure meaningful and supports the retry/game over structure. |
+| US.7 | Medium | As a player, I want cosmetic collectibles so that exploration feels rewarding. | Collectibles encourage exploration and improve replayability. |
+| US.8 | Medium | As a player, I want level indicators so that I can track my progress. | Level indicators provide useful feedback and help the player understand progression. |
+| US.9 | Medium | As a player, I want sound and visual feedback so that actions feel satisfying. | Feedback improves responsiveness and makes interactions feel clearer and more polished. |
+| US.10 | Medium | As a player, I want a visually appealing background for each level so that the world feels more dynamic. | Background design strengthens presentation and helps levels feel more distinct. |
+| US.11 | Low | As a player, I want multiple levels so that the game has more replay value. | Multiple levels add progression and increase the amount of playable content. |
+| US.12 | Low | As a player, I want checkpoints so that longer levels feel fairer. | Checkpoints reduce frustration and improve usability in harder or longer stages. |
+| US.13 | Low | As a player, I want more advanced enemy behaviour so that later levels feel more difficult. | More advanced enemy logic can make later stages feel more varied and demanding. |
+| US.14 | Low | As a player, I want a shop with items that can be unlocked so that the game is more fun. | A shop system is an optional extension that can increase depth and player motivation. |
+| US.15 | Low | As a player, I want stars/items that can be collected on each level so that the game is more replayable. | Extra items create optional completion goals and encourage replay. |
+
+---
+
+## Scrum Product Backlog
+
+| Backlog ID | Feature / Function | Priority | Description | Definition of Done | Evaluation / Justification | Test |
+|---|---|---|---|---|---|---|
+| B.1 | Player Movement | High | Allow the player to move left and right using keyboard controls. | The player moves smoothly and coherently in both directions. | Essential for all gameplay and the most basic interaction in the project. | Press left/right keys and verify movement speed and direction. |
+| B.2 | Jump Mechanic | High | Allow the player to jump while grounded. | The player jumps, reaches appropriate height and lands correctly. | A platform game is not playable without a reliable jumping system. | Press jump key and verify jump response and landing behaviour. |
+| B.3 | Platform Collision | High | Ensure the player interacts correctly with platforms. | The player lands on platforms and does not fall through the environment/terrain. | Collision reliability is essential for fair gameplay. | Land on platforms from different positions and confirm stability. |
+| B.4 | Hazard Detection | High | Hazards should damage, reset or defeat the player. | Touching a hazard causes the correct fail or life-loss response. | Hazards create risk and support the challenge loop. | Touch spikes or traps and verify the correct response. |
+| B.5 | Enemy Monsters | High | Introduce slime enemies as moving or placed obstacles. | Enemy contact affects the player correctly. | Enemies make the game more dynamic than hazards alone. | Trigger player-enemy collision and verify result. |
+| B.6 | End Goal | High | Reaching the goal completes the level. | The level ends or the next level loads correctly. | Gives the player a clear objective and win state. | Reach goal trigger and verify level completion. |
+| B.7 | Retry / Restart | High | The player should be able to retry after failing. | A failed level can be restarted correctly. | Supports replayability and the core gameplay loop. | Fail the level and verify restart logic. |
+| B.8 | Lives System | Medium | Track the number of lives the player has left. | Lives decrease correctly when the player is damaged or defeated. | Supports feedback and gives consequences to mistakes. | Trigger multiple failures/deaths and verify life value updates. |
+| B.9 | Level Indicator | Medium | Display the current level on screen. | The UI shows the correct level number. | Helps the player understand progression. | Load levels and verify displayed level number. |
+| B.10 | Cosmetic Collectibles | Medium | Add optional collectable items to encourage exploration. | Collectibles disappear when picked up and are counted or acknowledged. | Increases reward and replay value. | Touch collectible and verify pickup behaviour. |
+| B.11 | Sound Feedback | Medium | Add sound effects for important actions. | Audio plays for jumps, damage, pickups and level completion. | Improves responsiveness and game feel. | Trigger supported actions and verify sound plays. |
+| B.12 | Background Design | Medium | Use visually appealing backgrounds for each level. | Each level has a readable and distinct background. | Supports presentation and strengthens visual identity. | Load levels and confirm background is visible and appropriate. |
+| B.13 | Main Menu | Medium | Provide a starting menu for the game. | The game opens to a menu and can launch into gameplay. | Improves usability and presentation. | Start the project and verify menu navigation. |
+| B.14 | Game Over Screen | Medium | Show a fail state if the player loses completely. | A game over screen appears when the fail condition is final. | Makes the fail state clear to the player. | Lose all lives and verify screen appears. |
+| B.15 | Multiple Levels | Low | Include more than one playable level. | Level progression. | Adds progression and replayability, but the prototype can still function with one complete level. | Complete one level and verify the next level loads. |
+| B.16 | Checkpoints | Low | Add checkpoints to longer or harder levels. | The player respawns from the latest checkpoint rather than the level start. | Improves fairness in longer levels. | Activate a checkpoint, fail, and verify respawn location. |
+| B.17 | Advanced Enemy Behaviour | Low | Expand enemy logic beyond simple obstacle behaviour. | Enemies patrol or react more dynamically. | Useful extension, but not essential for the core prototype. | Observe enemy movement and verify behaviour matches design. |
+| B.18 | Shop System | Low | Add unlockable or purchasable items. | The player can access a shop and unlock an item if implemented. | A target feature that adds depth and replayability but is not required for the core prototype. | Access shop menu and verify unlock logic. |
+| B.19 | Stars / Extra Items | Low | Add optional stars or extra collectibles on each level. | Items can be collected and tracked correctly, able to use in the shop. | Supports replayability and optional completion goals. | Collect items and verify progress updates. |
+| B.20 | Pause Menu | Low | Allow the player to pause and resume gameplay. | Gameplay pauses and resumes without breaking the state. | Helpful for usability, but secondary to the core mechanics. | Pause during gameplay and verify resume function works. |
 
 ---
 
