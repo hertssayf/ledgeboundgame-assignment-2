@@ -311,6 +311,7 @@ LedgeBound uses a simple story allowing the prototype to be more gameplay driven
 
 Dexter's Background:
 A young male adventurer looking to return home, he wears a red cape and has brown/ginger hair with a quiff style. Dexter has an outgoing and postivie personality allowing him to conquer any challenges he is faced with without giving up.
+|Dexter Sprite|
 |-----|
 | ![60c4e0f2-102e-483f-974c-254e6c823fc1](https://github.com/user-attachments/assets/3f63a3e3-d62e-48b1-be05-7cf4f61669d1) |
 
@@ -324,6 +325,7 @@ The main enemy type currently planned is the **slime monster sprite**. These ene
 
 Slimes Background:
 The slimes formed by space matter ascended on the world they have only one goal which is to stick to any target and consume them, this allows the slimes to grow exponentially. The slime have a genderless and bubbly nature as they slide across the terrain.
+|Slime Sprite|
 |-----|
 | <img width="325" height="325" alt="image" src="https://github.com/user-attachments/assets/2140ee5e-e38a-49ae-b44a-8eac459d5131" /> |
 
