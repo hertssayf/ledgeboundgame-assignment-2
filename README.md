@@ -373,6 +373,10 @@ Sound improves the game by:
 
 ## State Management
 
+|**Game State Diagram:** The diagram shows the main gameplay states and transitions in LedgeBound.|
+|-----|
+| <img width="1278" height="1273" alt="StateSD2Diagram drawio" src="https://github.com/user-attachments/assets/450b096e-376b-4b92-ab48-ec87f13624a3" /> |
+
 | Current State | Condition | Next State | Description |
 |---|---|---|---|
 | Game Load | The game is launched | Main Menu | The game begins by loading into the main menu. |
@@ -391,10 +395,6 @@ Sound improves the game by:
 | Level2 Complete | More levels remain | Playing | If more levels remain and user has reached the finish, the next level begins. |
 | Level3 Complete | Final level completed | Final Win | Completing the last level shows the final win state. |
 | Final Win | Level3 completed | Main Menu | If level3 completed, the game ends with a congratulation message returning the user to the main menu state. |
-
-|**Game State Diagram:** The diagram shows the main gameplay states and transitions in LedgeBound.|
-|-----|
-| <img width="1278" height="1273" alt="StateSD2Diagram drawio" src="https://github.com/user-attachments/assets/450b096e-376b-4b92-ab48-ec87f13624a3" /> |
 
 ---
 
