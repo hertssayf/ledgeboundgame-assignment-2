@@ -249,6 +249,33 @@ The project will be considered successful if:
 
 ---
 
+## Overall Design and Development Strategy
+
+The overall design strategy for LedgeBound is to create a platform game focused prototype that is stable, visually clear to navigate and easy to test. The project has been designed around the principle of starting with **building a stable core game**, then adding low and medium priority scrum features afterwards, this development stratergy supports better project management and makes it easier to compare the implemented game to the original design specification.
+
+The game follows an Agile-inspired strategy where high-priority mechanics are implemented first, tested, reviewed and refined before lower-priority ideas are explored. This is a crucial stratergy as it helps keep the project realistic to develop for an individual, while still supporting ambitious ideas in a controlled way increasing the project scope.
+
+### Design Priorities
+1. Build stable movement and jumping systems
+2. Ensure collisions, hazards and fail states work correctly
+3. Add enemy monsters and level progression
+4. Add clear UI feedback such as lives and level number
+5. Add optional features such as collectibles, multiple levels, checkpoints and shops if time allows
+
+### Development Order
+- Define project idea and scope
+- Produce requirements and user stories
+- Create scrum backlog
+- Set up Unity project and scene structure
+- Implement movement and jumping
+- Add platforms, hazards and collisions
+- Add enemies and end-goal system
+- Add UI and feedback systems
+- Add optional features and polish prototype
+- Test, debug and refine
+
+---
+
 ## State Management
 
 | Current State | Condition | Next State | Description |
