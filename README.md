@@ -229,7 +229,7 @@ The project will be considered successful if:
 | B.1 | Player Movement | High | Allow the player to move left and right using keyboard controls. | The player moves smoothly and coherently in both directions. | Essential for all gameplay and the most basic interaction in the project. | Press left/right keys and verify movement speed and direction. |
 | B.2 | Jump Mechanic | High | Allow the player to jump while grounded. | The player jumps, reaches appropriate height and lands correctly. | A platform game is not playable without a reliable jumping system. | Press jump key and verify jump response and landing behaviour. |
 | B.3 | Platform Collision | High | Ensure the player interacts correctly with platforms. | The player lands on platforms and does not fall through the environment/terrain. | Collision reliability is essential for fair gameplay. | Land on platforms from different positions and confirm stability. |
-| B.4 | Hazard Detection | High | Hazards should damage, reset or defeat the player. | Touching a hazard causes the correct fail or life-loss response. | Hazards create risk and support the challenge loop. | Touch spikes or traps and verify the correct response. |
+| B.4 | Hazard Detection | High | Hazards (spikes) should damage, reset or defeat the player. | Touching a hazard causes the correct fail or life-loss response. | Hazards create risk and support the challenge loop. | Touch spikes or traps and verify the correct response. |
 | B.5 | Enemy Monsters | High | Introduce slime enemies as moving or placed obstacles. | Enemy contact affects the player correctly. | Enemies make the game more dynamic than hazards alone. | Trigger player-enemy collision and verify result. |
 | B.6 | End Goal | High | Reaching the goal completes the level. | The level ends or the next level loads correctly. | Gives the player a clear objective and win state. | Reach goal trigger and verify level completion. |
 | B.7 | Retry / Restart | High | The player should be able to retry after failing. | A failed level can be restarted correctly. | Supports replayability and the core gameplay loop. | Fail the level and verify restart logic. |
@@ -273,6 +273,22 @@ The game follows an Agile-inspired strategy where high-priority mechanics are im
 - Add UI and feedback systems
 - Add optional features and polish prototype
 - Test, debug and refine
+
+---
+
+## Project Scope and Minimum Viable Product (MVP)
+The mvp for LedgeBound is a 2D playable platform game that includes:
+
+- Player movement
+- Jumping
+- Platforms
+- Hazard (Spikes)
+- Slime enemies
+- At least one complete level
+- A visible level end-goal (finish flag)
+- Win and lose conditions
+- Lives and level number on the UI
+This mvp defines the minimum version of the game needed to satisfy the main gameplay objectives. Features such as collectibles, multiple levels, checkpoints, shops, stars/items and more advanced enemy behaviour are treated as extensions beyond the core build. This ensures that the project has a realistical scope and is prioritised carefully.
 
 ---
 
