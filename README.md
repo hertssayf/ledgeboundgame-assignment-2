@@ -298,6 +298,35 @@ LedgeBound uses a simple story allowing the prototype to be more gameplay driven
 
 ---
 
+## Characters
+### Main Player Character (Dexter)
+**Dexter** is the main controllable avatar/sprite. The character is designed to be visually clear and responsive so that movement and jumping feels precise and accurate. The character is able to:
+- run left and right
+- jump
+- fall
+- interact with platforms
+- collide with hazards and enemies
+- collect items
+- complete levels
+
+Dexter's Background:
+A young male adventurer looking to return home, he wears a red cape and has brown/ginger hair with a quiff style. Dexter has an outgoing and postivie personality allowing him to conquer any challenges he is faced with without giving up.
+![60c4e0f2-102e-483f-974c-254e6c823fc1](https://github.com/user-attachments/assets/3f63a3e3-d62e-48b1-be05-7cf4f61669d1)
+
+
+### Enemy Characters
+The main enemy type currently planned is the **slime monster sprite**. These enemies act as obstacles and add difficulty to the platforming experience. Their main design purpose is to:
+- create more dynamic threats than static hazards alone
+- force the player to time jumps carefully
+- make later levels feel more dangerous
+
+Slimes Background:
+The slimes formed by space matter ascended on the world they have only one goal which is to stick to any target and consume them, this allows the slimes to grow exponentially. The slime have a genderless and bubbly nature as they slide across the terrain.
+<img width="389" height="387" alt="image" src="https://github.com/user-attachments/assets/2140ee5e-e38a-49ae-b44a-8eac459d5131" />
+
+
+---
+
 ## State Management
 
 | Current State | Condition | Next State | Description |
