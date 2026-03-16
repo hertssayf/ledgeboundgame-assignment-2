@@ -333,6 +333,44 @@ The slimes formed by space matter ascended on the world with only one goal which
 
 ---
 
+## Artwork and Visual Design
+LedgeBound uses a **2D pixel-art inspired style** with vibrant colours, clear contrasts and intense backgrounds. This style fits well with the game’s nostalgic inspiration and the target audience’s familiarity with older platform games. The visual design updates old 2d pixel styles with updated hd textures to give a fresher clean look.
+
+### Visual Goals
+The visual design aims to:
+- make the player character easy to follow
+- make hazards and enemies easy to identify
+- support a retro-inspired atmosphere
+- keep gameplay readable at all times
+
+### Background Design
+The backgrounds are intended to make each level feel more visually appealing and distinct without distracting from gameplay. Backgrounds are treated as part of the game’s presentation rather than as a gameplay mechanic. This means day/night variations or additional level themes are used to create level atmosphere and visual identity,
+### Visual Justification
+A clear and readable visual style is important in a platform game because poor visibility can make difficulty feel unfair. For this reason, the backgrounds are designed to support the level rather than overwhelm it.
+
+---
+
+## Sound Design
+Sound is used to improve player feedback and make the game feel more responsive.
+
+### Planned Sounds
+- jump sound
+- running/sprint sound
+- damage/death sound
+- collectible pickup sound
+- enemy interaction sound
+- level completion sound
+- menu selection sound
+
+### Why Sound Is Important
+Sound improves the game by:
+- confirming actions immediately
+- making movement and interactions feel more satisfying
+- reinforcing success and failure states
+- increasing the level of polish in the prototype
+
+---
+
 ## State Management
 
 | Current State | Condition | Next State | Description |
