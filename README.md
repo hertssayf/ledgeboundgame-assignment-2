@@ -306,10 +306,12 @@ The game follows an Agile-inspired strategy where high-priority mechanics are im
 
 ### Programming Language
 **C#**
+
 C# was chosen because it integrates directly with Unity and supports modular object-oriented scripting(code that defines how game objects behave and interact within the Unity game engine). This helps keep the code organised and maintainable.
 
 ### Target Platform
 **Desktop PC**
+
 Desktop PC was selected as the target platform because it allows easier testing during development, supports keyboard controls, and provides a straightforward approach for demonstrating the game.
 
 ### Input Method
