@@ -315,7 +315,7 @@ Chosen because it integrates directly with Unity and supports modular object-ori
 Selected as the target platform because it allows easier testing during development, supports keyboard controls, and provides a straightforward approach for demonstrating the game.
 
 ### Input Method:
-**Keyboard controls**
+**Keyboard controls**,**Mouse**
 
 ### Justification:
 Unity was chosen because it provides strong support for:
@@ -337,7 +337,7 @@ Unity was chosen because it provides strong support for:
 | Move Right | D / Right Arrow |
 | Jump | Space / Up Arrow |
 | Pause | P / Esc |
-
+| Navigation | Left Mouse Click |
 ---
 
 Downloaded the following free Sprite Assests to use in unity:
