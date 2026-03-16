@@ -315,7 +315,7 @@ Chosen because it integrates directly with Unity and supports modular object-ori
 Selected as the target platform because it allows easier testing during development, supports keyboard controls, and provides a straightforward approach for demonstrating the game.
 
 ### Input Method:
-**Keyboard controls**,**Mouse**
+**Keyboard Controls**, **Mouse Click**
 
 ### Justification:
 Unity was chosen because it provides strong support for:
