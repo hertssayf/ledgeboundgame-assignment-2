@@ -392,7 +392,7 @@ Sound improves the game by:
 | Level3 Complete | Final level completed | Final Win | Completing the last level shows the final win state. |
 | Final Win | Level3 completed | Main Menu | If level3 completed, the game ends with a congratulation message returning the user to the main menu state. |
 
-**State Management Diagram:**
+**Game State Diagram:** The diagram shows the main gameplay states and transitions in LedgeBound.
 <img width="1278" height="1273" alt="StateSD2Diagram drawio" src="https://github.com/user-attachments/assets/450b096e-376b-4b92-ab48-ec87f13624a3" />
 
 ---
