@@ -317,7 +317,7 @@ A young male adventurer looking to return home, he wears a red cape and has brow
 
 ---
 
-### Enemy Characters
+### Enemy Characters (slime)
 The main enemy type currently planned is the **slime monster sprite**. These enemies act as obstacles and add difficulty to the platforming experience. Their main design purpose is to:
 - create more dynamic threats than static hazards alone
 - force the player to time jumps carefully
