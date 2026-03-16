@@ -293,6 +293,11 @@ This mvp defines the minimum version of the game needed to satisfy the main game
 
 ---
 
+## Game Story
+LedgeBound uses a simple story allowing the prototype to be more gameplay driven. The player controls a lone adventurer travelling through a dangerous side-scrolling world filled with challenges such as spikes and slimes. The objective is to overcome the dangers of each stage and reach the end goal safely. The game ends when the player returns back to his/her cabin at the end of level 3 (the final level) as this leaves a good impression of an ending to the user. The story is intentionally lightweight so that the main focus remains on platforming mechanics and player progression.
+
+---
+
 ## State Management
 
 | Current State | Condition | Next State | Description |
