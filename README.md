@@ -299,6 +299,32 @@ The game follows an Agile-inspired strategy where high-priority mechanics are im
 
 ---
 
+## Programming Language and Platform
+
+### Game Engine
+**Unity**
+
+### Programming Language
+**C#**
+C# was chosen because it integrates directly with Unity and supports modular object-oriented scripting(code that defines how game objects behave and interact within the Unity game engine). This helps keep the code organised and maintainable.
+
+### Target Platform
+**Desktop PC**
+Desktop PC was selected as the target platform because it allows easier testing during development, supports keyboard controls, and provides a straightforward approach for demonstrating the game.
+
+### Input Method
+**Keyboard controls**
+
+### Justification
+Unity was chosen because it provides strong support for:
+- 2D game development  
+- built-in systems  
+- scene management and creation
+- sprite handling
+- user interface (UI) systems
+
+---
+
 Downloaded the following free Sprite Assests to use in unity:
 <img width="1701" height="945" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
