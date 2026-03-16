@@ -301,23 +301,23 @@ The game follows an Agile-inspired strategy where high-priority mechanics are im
 
 ## Programming Language and Platform
 
-### Game Engine
+### Game Engine:
 **Unity**
 
-### Programming Language
+### Programming Language:
 **C#**
 
 Chosen because it integrates directly with Unity and supports modular object-oriented scripting(code that defines how game objects behave and interact within the Unity game engine). This helps keep the code organised and maintainable.
 
-### Target Platform
+### Target Platform:
 **Desktop PC**
 
 Selected as the target platform because it allows easier testing during development, supports keyboard controls, and provides a straightforward approach for demonstrating the game.
 
-### Input Method
+### Input Method:
 **Keyboard controls**
 
-### Justification
+### Justification:
 Unity was chosen because it provides strong support for:
 - 2D game development  
 - built-in systems  
