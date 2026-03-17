@@ -277,7 +277,7 @@ The game follows an Agile-inspired strategy where high-priority mechanics are im
 ---
 
 ## Project Scope and Minimum Viable Product (MVP)
-The mvp for LedgeBound is a 2D playable platform game that includes:
+The MVP for LedgeBound is a 2D playable platform game that includes:
 
 - Player movement
 - Jumping
@@ -289,7 +289,7 @@ The mvp for LedgeBound is a 2D playable platform game that includes:
 - Win and lose conditions
 - Lives and level number on the UI
 
-This mvp defines the minimum version of the game needed to satisfy the main gameplay objectives. Features such as collectibles, multiple levels, checkpoints, shops, stars/items and more advanced enemy behaviour are treated as extensions beyond the core build. This ensures that the project has a realistical scope and is prioritised carefully.
+This MVP defines the minimum version of the game needed to satisfy the main gameplay objectives. Features such as collectibles, multiple levels, checkpoints, shops, stars/items and more advanced enemy behaviour are treated as extensions beyond the core build. This ensures that the project has a realistical scope and is prioritised carefully.
 
 ---
 
