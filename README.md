@@ -473,7 +473,7 @@ This loop supports replayability and encourages the player to keep trying even a
 The rules of LedgeBound are:
 - The player begins each level at a start point
 - The player must use movement and jumping to navigate the stage
-- Touching hazards or enemies causes damage reuslting in failure or life loss
+- Touching hazards or enemies causes damage resulting in failure or life loss
 - Falling off the level causes failure
 - Reaching the end goal completes the level
 - Lives limit how many mistakes the player can make before game over
