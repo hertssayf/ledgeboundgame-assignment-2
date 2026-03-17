@@ -200,7 +200,7 @@ The project will be considered successful if:
 
 ---
 
-## Scrum Style User Stories:
+## Scrum-Style User Stories:
 
 | User Story ID | Priority | User Story | Purpose / Justification |
 |---|---|---|---|
@@ -443,7 +443,7 @@ These mechanics were chosen because they are:
 
 ---
 
-## Game Motivation Loop
+## Player Motivation Loop
 The game is built using a simple but effective motivation loop.
 ### Player State
 The player wants to survive and complete each level.
@@ -476,7 +476,7 @@ The rules of LedgeBound are:
 - Touching hazards or enemies causes damage resulting in failure or life loss
 - Falling off the level causes failure
 - Reaching the end goal completes the level
-- Lives limit how many mistakes the player can make before game over
+- Lives limit how many mistakes the player can make before a game over condition occurs.
 - Collectibles are optional but reward exploration
 - The final level ends in victory if completed
 These rules ensure the player always understands both their objective and the consequences of their actions.
