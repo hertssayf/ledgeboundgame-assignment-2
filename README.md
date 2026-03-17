@@ -263,16 +263,17 @@ The game follows an Agile-inspired strategy where high-priority mechanics are im
 5. Add optional features such as collectibles, multiple levels, checkpoints and shops if time allows
 
 ### Development Order
-- Define project idea and scope
-- Produce requirements and user stories
-- Create scrum backlog
-- Set up Unity project and scene structure
-- Implement movement and jumping
-- Add platforms, hazards and collisions
-- Add enemies and end-goal system
-- Add UI and feedback systems
-- Add optional features and polish prototype
-- Test, debug and refine
+Split into the following ten stages:
+- **Stage 1:** Define project idea and scope
+- **Stage 2:** Produce requirements and user stories
+- **Stage 3:** Create scrum backlog
+- **Stage 4:** Set up Unity project and scene structure
+- **Stage 5:** Implement movement and jumping
+- **Stage 6:** Add platforms, hazards and collisions
+- **Stage 7:** Add enemies and end-goal system
+- **Stage 8:** Add UI and feedback systems
+- **Stage 9:** Add optional features and polish prototype
+- **Stage 10:** Test, debug and refine
 
 ---
 
