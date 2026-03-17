@@ -734,6 +734,10 @@ The project demonstrates progress against the design specification through the f
 
 This shows the systematically development of the project and that implementation is being measured against the original requirements, user stories, backlog and testing expectations.
 
+## Script Devlopment
+The Scripts folder is responsible for the scripts i created in development,
+it is found here: [Scripts](./Scripts)
+
 ---
 
 ## Software Tools and Coding Techniques
