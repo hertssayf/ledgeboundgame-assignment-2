@@ -353,7 +353,7 @@ A clear and readable visual style is important in a platform game because poor v
 ## Sound Design
 Sound is used to improve player feedback and make the game feel more responsive.
 
-### Planned Sounds
+### Game Sounds
 - jump sound
 - running/sprint sound
 - damage/death sound
@@ -362,7 +362,7 @@ Sound is used to improve player feedback and make the game feel more responsive.
 - level completion sound
 - menu selection sound
 
-### Why Sound Is Important
+### Why I Included Sounds
 Sound improves the game by:
 - confirming actions immediately
 - making movement and interactions feel more satisfying
