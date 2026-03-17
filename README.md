@@ -698,6 +698,44 @@ Detailed testing evidence such as the test plan and log is found in: [Testing.md
 
 ---
 
+##Evaluation
+Evaluating whats has been done and what is in active development.
+
+### Evidence of Progress Against the Design Specification
+The project demonstrates progress against the design specification through the following completed or clearly defined areas and implemented or in active development below:
+
+### Completed or Strongly Defined:
+- Project concept and scope
+- Target audience review
+- User requirements and system requirements
+- Scrum user stories
+- Prioritised product backlog with definitions and tests
+- Game story, characters and environment planning
+- Gameplay mechanics and rules
+- State management planning
+- Platform and input decisions
+- Software tools and coding techniques
+- Backlog reviews
+- Development review meetings
+- Burndown tracking
+- Testing strategy and test plan
+- Research resources (Refrences)
+
+### Implemented or In Active Development:
+- Unity project setup
+- Player movement
+- Jump behaviour
+- Platform collision logic
+- Hazard planning and testing
+- Slime enemy planning and integration
+- UI planning for lives and level number
+- Level progression structure
+- Optional collectible systems
+
+This shows the systematically development of the project and that implementation is being measured against the original requirements, user stories, backlog and testing expectations.
+
+---
+
 ## Software Tools and Coding Techniques
 
 ### Software Tools Used
