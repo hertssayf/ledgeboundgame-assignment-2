@@ -1,7 +1,9 @@
 ## Testing & Development
 This section documents key issues encountered during development and explains how they were resolved aswell as a test plan/log.
 
-The Scripts folder is responsible for the scripts i created in development, it is found here: [Scripts](./Scripts)
+The Scripts folder is responsible for the scripts i created in development,
+it is found here: [Scripts](./Scripts)
+
 ---
 
 ## Test Plan/Test Log
