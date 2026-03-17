@@ -554,6 +554,30 @@ Unity was chosen because it provides strong support for:
 | Pause | P / Esc |
 | Navigation | Left Mouse Click |
 
+## Planned UI Elements
+The planned UI elements for **LedgeBound** are:
+
+- Main menu
+- Start/Play button
+- Level indicator
+- Lives display
+- Items display indicator
+- Game over screen
+- Death screen
+- Win screen
+- Pause menu
+
+## UI Design Principles
+The interface is designed to be:
+
+- Simple
+- Readable
+- Consistent
+- Supports the gameplay
+- Easy to understand
+
+The UI should communicate the player’s progress and the current game state clearly, while avoiding unnecessary clutter.
+
 ---
 
 ## References
