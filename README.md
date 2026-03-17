@@ -609,6 +609,55 @@ Enemy logic needs to be reliable and readable, enemies should create challenge w
 
 ---
 
+## Basic Pseudocode
+
+### Player Movement
+```text
+IF left key is pressed
+    move player left
+ELSE IF right key is pressed
+    move player right
+END IF
+
+IF jump key is pressed AND player is grounded
+    apply jump motion
+END IF
+```
+### Hazard Collisions
+```text
+WHEN player touches hazard
+    reduce lives
+    IF lives > 0
+        restart from spawn point
+    ELSE
+        load game over state
+    END IF
+END WHEN
+```
+### Enemy Collisions
+```text
+WHEN player touches slime enemy
+    apply damage or fail logic
+    IF lives remain
+        restart or continue from checkpoint
+    ELSE
+        load game over state
+    END IF
+END WHEN
+```
+### Level Comlpetion
+```text
+WHEN player reaches end goal
+    IF current level is not final level
+        load next level
+    ELSE
+        load win state
+    END IF
+END WHEN
+```
+
+---
+
 ## References
 Downloaded the following free Sprite Assets to use in unity:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
