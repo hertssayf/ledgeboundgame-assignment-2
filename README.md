@@ -334,7 +334,7 @@ The slimes formed by space matter ascended on the world with only one goal which
 ---
 
 ## Artwork and Visual Design
-LedgeBound uses a **2D pixel-art inspired style** with vibrant colours, clear contrasts and intense backgrounds. This style fits well with the game’s nostalgic inspiration and the target audience’s familiarity with older platform games. The visual design updates old 2d pixel styles with updated hd textures to give a fresher clean look.
+LedgeBound uses a **2D pixel-art inspired style** with vibrant colours, clear contrasts and intense backgrounds. This style fits well with the game’s nostalgic inspiration and the target audience’s familiarity with older platform games. The visual design updates old 2D pixel styles with updated HD textures to give a clean fresher look.
 
 ### Visual Goals
 The visual design aims to:
