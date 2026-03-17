@@ -1,5 +1,5 @@
 ## Brief Introduction
-This repository contains the game **LedgeBound** developed for the Software Development 2 module. The project is a 2D platform game inspired by the hit classic Mario. 
+This repository contains the game **LedgeBound** developed for the Software Development 2 module. **LedgeBound** is a 2D platform game inspired by the hit classic Mario. 
 
 ---
 
