@@ -137,7 +137,7 @@ To develop a functional 2D side-scrolling platform game in which the player runs
 
 ## Overall Specification – Ledge Bound
 
-### Core User Requirements
+### Core Features Requirements
 - The player must be able to run and jump smoothly
 - The player must be able to move through side-scrolling levels
 - The game must contain platforms, gaps and hazards
@@ -147,7 +147,7 @@ To develop a functional 2D side-scrolling platform game in which the player runs
 - The UI must display lives and level number
 - The game should provide sound and visual feedback
 
-### Optional User Requirements
+### Optional Features Requirements
 - Checkpoints
 - Pause menu
 - Additional level themes
