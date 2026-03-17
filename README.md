@@ -668,7 +668,7 @@ The project follows a scrum-inspired agile approach. This means:
 - testing and refinement happen throughout the development
 
 This approach supports realistic planning and helps keep the project focused on the most important gameplay features first.
-I have created a seperate file for all the necesarry planning techniques: backlog reviews, development meetings and the burndown chart here: [Backlog_Reviews_&_Meetings](./Backlog_Reviews_&_Meetings)
+I have created a seperate file for all the necesarry planning techniques: backlog reviews, development meetings and the burndown chart here: [BacklogReviews&Meetings.md](./BacklogReviews&Meetings.md)
 ---
 
 ## References
