@@ -658,6 +658,19 @@ END WHEN
 
 ---
 
+## Project Management Approach
+
+The project follows a scrum-inspired agile approach. This means:
+- requirements are converted into scrum user stories
+- scrum user stories are transformed into backlog items
+- backlog items are prioritised by importance
+- progress is reviewed regularly
+- testing and refinement happen throughout the development
+
+This approach supports realistic planning and helps keep the project focused on the most important gameplay features first.
+I have created a seperate file for all the necesarry planning techniques: backlog reviews, development meetings and the burndown chart here: [Backlog_Reviews_&_Meetings](./Backlog_Reviews_&_Meetings)
+---
+
 ## References
 Downloaded the following free Sprite Assets to use in unity:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
