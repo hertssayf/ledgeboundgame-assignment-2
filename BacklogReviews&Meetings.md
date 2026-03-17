@@ -1,4 +1,4 @@
-This file includes the backlog reviews, development review meetings, and burndown chart for the Ledge Bound project.
+This file includes the backlog reviews, development review meetings, and burndown chart for the LedgeBound project.
 
 ---
 
@@ -7,16 +7,12 @@ These were reviewed and updated as development progressed.
 
 ### Backlog Review 1 – 11 February 2026 – Done
 Movement, jumping, and platform collisions were prioritised first because they form the minimum viable product (MVP).
-
 ### Backlog Review 2 – 18 February 2026 – Done
 Spike hazards, slime enemies, and level-end logic were prioritised next because they establish challenge and define the core mechanics of the game.
-
 ### Backlog Review 3 – 25 February 2026 – Working On
 Lives and level indicators were prioritised after core mechanics because they improve clarity and support the fail/progression systems.
-
 ### Backlog Review 4 – 4 March 2026 – Not Done
 Collectibles, sound, and background design were treated as secondary features that improve polish and presentation once the main game loop is stable.
-
 ### Backlog Review 5 – 11 March 2026 – Not Done
 Optional features such as multiple levels, checkpoints, shop items, stars/items, and advanced enemy behaviour were reviewed as stretch goals to avoid over-scoping the early build.
 
@@ -65,3 +61,5 @@ The burndown chart shows steady progress across development. It helped identify 
 | Week 2 | 18 Feb 2026 – 24 Feb 2026 | 18 | 18 |
 | Week 3 | 25 Feb 2026 – 3 Mar 2026 | 15 | 16 |
 | Week 4 | 4 Mar 2026 – 10 Mar 2026 | 12 | 13 |
+
+---
