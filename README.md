@@ -406,7 +406,7 @@ The level design is based on the following principles:
 - acts as a stronger test of movement, awareness and timing
 
 This progressive structure makes the game easier to learn while still supporting replayability and challenge. 
-Level 1 can be thought to act as a mini toturial before the other two levels begin.
+Level 1 can be thought to act as a mini tutorial before the other two levels begin.
 
 ---
 
@@ -479,7 +479,6 @@ The rules of LedgeBound are:
 - Lives limit how many mistakes the player can make before game over
 - Collectibles are optional but reward exploration
 - The final level ends in victory if completed
-
 These rules ensure the player always understands both their objective and the consequences of their actions.
 
 ---
