@@ -672,6 +672,37 @@ I have created a seperate file for all the necesarry planning techniques: backlo
 
 ---
 
+## Software Tools and Coding Techniques
+
+### Software Tools Used
+| Tool | Purpose |
+|---|---|
+| Unity | Main development engine |
+| Visual Studio / VS Code | Writing and debugging C# scripts |
+| GitHub | Version control and documentation |
+| Diagram / Flowchart tool: Draw.io | Planning logic and state flow |
+
+### Coding Techniques Used
+The project uses:
+- object-oriented programming
+- modular script design
+- reusable scripts where possible
+- conditionals and loops
+- trigger-based interactions
+- scene management
+- state-based logic
+- debugging through Unity console output and repeated playtesting
+
+### Maintainability and Reusability
+Scripts are designed to be reusable wherever possible. For example:
+- one enemy controller can be used across multiple slime enemies
+- one collectible script can manage many pickups
+- one hazard script can be attached to multiple traps
+
+This reduces duplicated code and improves maintainability.
+
+---
+
 ## References
 Downloaded the following free Sprite Assets to use in unity:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
