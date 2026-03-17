@@ -13,7 +13,7 @@ This repository contains the game **LedgeBound** developed for the Software Deve
 
 ---
 
-## Table of Main Contents
+## Table Of Main Contents
 
 - [Project Decision](#24-project-decision-2d-side-scrolling-platformer)
 - [Project Aim and Objectives](#40-project-aim-and-objectives)
