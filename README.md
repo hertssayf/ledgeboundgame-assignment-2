@@ -580,6 +580,34 @@ The UI should communicate the player’s progress and the current game state cle
 
 ---
 
+## Technical and Programming Challenges
+
+### Physics and Jump Balancing
+The jump system must feel responsive and fair. Poor balance between gravity, movement speed and jump force can make the game become frustrating.
+
+### Collision Handling
+Reliable collisions are essential for:
+- platforms
+- hazards
+- enemies
+- collectibles
+- goal triggers
+Any collision issue can directly break the gameplay loop.
+
+### Level Balance
+Levels must be challenging without becoming unfair, poor spacing or unclear hazards can make the game unlikeable.
+
+### State Coordination
+Menus, retries, gameplay and end screens all need to transition correctly, this requires careful control of scenes and gameplay states.
+
+### Scope Management
+The project contains several lower-priority extension ideas such as shops, stars/items and advanced enemy behaviour, these are useful for depth but they also create a risk of over-scoping if not prioritised carefully.
+
+### Enemy Behaviour
+Enemy logic needs to be reliable and readable, enemies should create challenge without behaving unpredictably or unfairly.
+
+---
+
 ## References
 Downloaded the following free Sprite Assets to use in unity:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
