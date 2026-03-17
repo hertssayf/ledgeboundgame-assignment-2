@@ -326,7 +326,7 @@ The main enemy type currently planned is the **slime monster sprite**. These ene
 
 Slimes Background:
 
-The slimes formed by space matter ascended on the world with only one goal which is to stick to any target and consume them, this allows the slimes to grow exponentially. The slime have a genderless and bubbly nature as they slide across the terrain.
+The slimes formed by space matter ascended on the world with only one goal which is to stick to any target and consume them, this allows the slimes to grow exponentially. The slime have a genderless, bubbly nature as they slide across the terrain.
 |Slime Sprite|
 |-----|
 | <img width="325" height="325" alt="image" src="https://github.com/user-attachments/assets/2140ee5e-e38a-49ae-b44a-8eac459d5131" /> |
