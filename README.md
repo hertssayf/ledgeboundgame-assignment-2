@@ -1,4 +1,4 @@
-## Brief Introduction
+## 1.0 Brief Introduction
 This repository contains the game **LedgeBound** developed for the Software Development 2 module. The project is a 2D platformer game inspired by the hit classic Mario. 
 
 ---
@@ -13,9 +13,9 @@ This repository contains the game **LedgeBound** developed for the Software Deve
 
 ---
 
-## Reviewing Project Ideas
+## 2.0 Reviewing Project Ideas
 
-### 2D Side-Scrolling Platformer
+### 2.1 2D Side-Scrolling Platformer
 A game where the player moves from left to right through levels, jumping across platforms, avoiding hazards and reaching an end goal.
 
 **Target audience**
@@ -42,7 +42,7 @@ A game where the player moves from left to right through levels, jumping across 
 
 ---
 
-### Endless Runner
+### 2.2 Endless Runner
 A game where the player survives as long as possible while automatically moving forward and avoiding obstacles.
 
 **Target audience**
@@ -66,7 +66,7 @@ A game where the player survives as long as possible while automatically moving 
 
 ---
 
-### Puzzle Platformer
+### 2.3 Puzzle Platformer
 A platform game where the player solves movement-based puzzles to progress.
 
 **Target audience**
@@ -88,7 +88,7 @@ A platform game where the player solves movement-based puzzles to progress.
 
 ---
 
-### Project Decision: 2D Side-Scrolling Platformer
+### 2.4 Project Decision: 2D Side-Scrolling Platformer
 After reviewing the possible project ideas, a 2D side-scrolling platformer was selected as it aligns well with Unity development and provided an opportunity to gain experience using the Unity game engine.
 The platformer structure also makes it easier to divide the game into manageable sections such as player movement, hazards, collectibles, level progression, state management and user interface.
 It allows the project to demonstrate the Scrum software development lifecycle through requirements analysis, design, backlog planning, implementation, testing and review.
@@ -97,21 +97,21 @@ I have created a powerpoint pitch for the game describing essential fundamentals
 
 ---
 
-## Reviewing Target Audience
+## 3.0 Reviewing Target Audience
 
-### Casual Gamers
+### 3.1 Casual Gamers
 Characteristics:
 - Prefer simple controls
 - Want enjoyable short play sessions
 - Expect quick understanding of the game
 
-### Nostalgic Platform Game Fans
+### 3.2 Nostalgic Platform Game Fans
 Characteristics:
 - Familiar with platform games
 - Often enjoy nostalgic games inspired by older titles
 - Prefer addictive but easy-to-play experiences
 
-### Students/Young Adults Aged 18-25
+### 3.3 Students/Young Adults Aged 18-25
 Characteristics:
 - Notice movement quality and jump accuracy
 - Appreciate fair challenge and good level flow
@@ -119,12 +119,12 @@ Characteristics:
 
 ---
 
-## Project Aim and Objectives
+## 4.0 Project Aim and Objectives
 
-### Aim
+### 4.1 Aim
 To develop a functional 2D side-scrolling platform game in which the player runs, jumps, avoids hazards(including enemies), and reaches the end of each level.
 
-### Objectives
+### 4.2 Objectives
 - Identify user and system requirements
 - Produce scrum-style user stories and a prioritised backlog
 - Design the gameplay, levels, characters, environment and UI
@@ -135,9 +135,9 @@ To develop a functional 2D side-scrolling platform game in which the player runs
 
 ---
 
-## Overall Specification – Ledge Bound
+## 5.0 Overall Specification – Ledge Bound
 
-### Core Features Requirements
+### 5.1 Core Features Requirements
 - The player must be able to run and jump smoothly
 - The player must be able to move through side-scrolling levels
 - The game must contain platforms, gaps and hazards
@@ -147,7 +147,7 @@ To develop a functional 2D side-scrolling platform game in which the player runs
 - The UI must display lives and level number
 - The game should provide sound and visual feedback
 
-### Optional Features Requirements
+### 5.2 Optional Features Requirements
 - Checkpoints
 - Pause menu
 - Additional level themes
@@ -157,7 +157,7 @@ To develop a functional 2D side-scrolling platform game in which the player runs
 - Add a score function
 - Night and day backgrounds
 
-### Acceptance Criteria
+### 5.3 Acceptance Criteria
 The project will be considered successful if:
 - The player can move and jump accurately
 - Platform and hazard collisions function correctly
@@ -168,9 +168,9 @@ The project will be considered successful if:
 
 ---
 
-## User and System Requirements
+## 6.0 User and System Requirements
 
-### User Requirements
+### 6.1 User Requirements
 - The game should be easy to understand and navigate
 - The controls should be responsive and consistent
 - Hazards and enemies should be clearly visible
@@ -178,7 +178,7 @@ The project will be considered successful if:
 - Levels should become more challenging over time
 - The game should be enjoyable and replayable
 
-### System Requirements
+### 6.2 System Requirements
 - The system shall allow the player to move left and right
 - The system shall allow the player to jump using keyboard input
 - The system shall detect collisions between the player and platforms
@@ -190,7 +190,7 @@ The project will be considered successful if:
 - The system shall support win and lose states
 - The system shall run on a desktop PC using keyboard controls
 
-### Non-Functional Requirements
+### 6.3 Non-Functional Requirements
 - The game should load quickly
 - The controls should respond without noticeable delay
 - The game should remain readable and visually clear
@@ -200,7 +200,7 @@ The project will be considered successful if:
 
 ---
 
-## Scrum-Style User Stories:
+## 7.0 Scrum-Style User Stories:
 
 | User Story ID | Priority | User Story | Purpose / Justification |
 |---|---|---|---|
@@ -222,7 +222,7 @@ The project will be considered successful if:
 
 ---
 
-## Scrum Product Backlog:
+## 8.0 Scrum Product Backlog:
 
 | Backlog ID | Feature / Function | Priority | Description | Definition of Done | Evaluation / Justification | Test |
 |---|---|---|---|---|---|---|
@@ -249,20 +249,20 @@ The project will be considered successful if:
 
 ---
 
-## Overall Design and Development Strategy
+## 9.0 Overall Design and Development Strategy
 
 The overall design strategy for LedgeBound is to create a platform game focused prototype that is stable, visually clear to navigate and easy to test. The project has been designed around the principle of starting with **building a stable core game**, then adding low and medium priority scrum features, this development strategy improves project management and allows the implemented game to be compared clearly with the original design specification.
 
 The game follows an Agile-inspired strategy where high-priority mechanics are implemented first, tested, reviewed and refined before lower-priority ideas are explored. This is a crucial stratergy as it helps keep the project realistic to develop for an individual, while still supporting ambitious ideas in a controlled way increasing the project scope.
 
-### Design Priorities
+### 9.1 Design Priorities
 1. **Stability** - build stable movement and jumping systems
 2. **Functionality** - ensure collisions, hazards and fail states work correctly
 3. **Progression** - add enemy monsters and level progression
 4. **Feedback** - add clear UI feedback such as lives and level number
 5. **Scalibility** - add optional features such as collectibles, multiple levels, checkpoints and shops if time allows
 
-### Development Order
+### 9.2 Development Order
 Split into the following ten stages:
 - **Stage 1:** Define project idea and scope
 - **Stage 2:** Produce requirements and user stories
@@ -277,7 +277,7 @@ Split into the following ten stages:
 
 ---
 
-## Project Scope and Minimum Viable Product (MVP)
+## 10.0 Project Scope and Minimum Viable Product (MVP)
 The MVP for LedgeBound is a 2D playable platform game that includes:
 
 - Player movement
@@ -294,13 +294,13 @@ This MVP defines the minimum version of the game required to satisfy the core ga
 
 ---
 
-## Game Story
+## 11.0 Game Story
 LedgeBound uses a simple story allowing the prototype to be more gameplay driven. The player controls a lone adventurer travelling through a dangerous side-scrolling world filled with challenges such as spikes and slimes. The objective is to overcome the dangers of each stage and reach the end goal safely. The game ends when the player returns back to their cabin at the end of level 3 (the final level) providing a clear narrative conclusion. The story is intentionally lightweight so that the main focus remains on platforming mechanics and player progression.
 
 ---
 
-## Characters
-### Main Player Character (Dexter)
+## 12.0 Characters
+### 12.1 Main Player Character (Dexter)
 **Dexter** is the main controllable avatar/sprite. The character is designed to be visually clear and responsive so that movement and jumping feels precise and accurate. The character is able to:
 - run left and right
 - jump
@@ -319,7 +319,7 @@ A young male adventurer looking to return home, he wears a red cape and has brow
 
 ---
 
-### Enemy Characters (Slime)
+### 12.2 Enemy Characters (Slime)
 The main enemy type currently planned is the **slime monster sprite**. These enemies act as obstacles and add difficulty to the platforming experience. Their main design purpose is to:
 - create more dynamic threats than static hazards alone
 - force the player to time jumps carefully
@@ -334,27 +334,27 @@ The slimes formed by space matter ascended on the world with only one goal which
 
 ---
 
-## Artwork and Visual Design
+## 13.0 Artwork and Visual Design
 LedgeBound uses a **2D pixel-art inspired style** with vibrant colours, clear contrasts and intense backgrounds. This style fits well with the game’s nostalgic inspiration and the target audience’s familiarity with older platform games. The visual design updates old 2D pixel styles with updated HD textures to give a clean fresher look.
 
-### Visual Goals
+### 13.1 Visual Goals
 The visual design aims to:
 - make the player character easy to follow
 - make hazards and enemies easy to identify
 - support a retro-inspired atmosphere
 - keep gameplay readable at all times
 
-### Background Design
+### 13.2 Background Design
 The backgrounds are intended to make each level feel more visually appealing and distinct without distracting from gameplay. Backgrounds are treated as part of the game’s presentation rather than as a gameplay mechanic. This means day/night variations or additional level themes are used to create level atmosphere and visual identity,
-### Visual Justification
+### 13.3 Visual Justification
 A clear and readable visual style is important in a platform game because poor visibility can make difficulty feel unfair. For this reason, the backgrounds are designed to support the level rather than overwhelm it.
 
 ---
 
-## Sound Design
+## 14.0 Sound Design
 Sound is used to improve player feedback and make the game feel more responsive.
 
-### Game Sounds
+### 14.1 Game Sounds
 - jump sound
 - running/sprint sound
 - damage/death sound
@@ -363,7 +363,7 @@ Sound is used to improve player feedback and make the game feel more responsive.
 - level completion sound
 - menu selection sound
 
-### Why I Included Sounds
+### 14.2 Why I Included Sounds
 Sound improves the game by:
 - confirming actions immediately
 - making movement and interactions feel more satisfying
@@ -372,10 +372,10 @@ Sound improves the game by:
 
 ---
 
-## Environment and Level Design
+## 15.0 Environment and Level Design
 The game uses a 2D side-scrolling platform environment built from platforms, gaps, hazards, enemies, collectibles and end-goal areas.
 
-### Environment Features
+### 15.1 Environment Features
 Each level may contain:
 - safe ground and raised platforms
 - gaps that require accurate jumping
@@ -384,7 +384,7 @@ Each level may contain:
 - optional collectibles
 - a goal trigger at the end of the level
 
-### Level Design Principles
+### 15.2 Level Design Principles
 The level design is based on the following principles:
 - introduce mechanics gradually
 - increase challenge over time
@@ -392,7 +392,7 @@ The level design is based on the following principles:
 - introduce hazards that require timing and careful movement
 - scatter items based on new exploration
 
-### Planned Level Structure
+### 15.3 Planned Level Structure
 **Level 1**
 - introduces movement and jumping
 - uses simple platforms
@@ -411,8 +411,8 @@ Level 1 can be thought to act as a mini tutorial before the other two levels beg
 
 ---
 
-## Gameplay and Core Mechanics
-### Core Mechanics
+## 16.0 Gameplay and Core Mechanics
+### 16.1 Core Mechanics
 The main mechanics of the game are:
 - Horizontal movement
 - Jumping
@@ -425,7 +425,7 @@ The main mechanics of the game are:
 - Level progression
 - Win and lose states
 
-### Core Gameplay Loop
+### 16.2 Core Gameplay Loop
 1. Start the level  
 2. Move through the environment  
 3. Jump between platforms  
@@ -435,7 +435,7 @@ The main mechanics of the game are:
 7. Reach the end goal  
 8. Progress to the next level or complete the game  
 
-### Why These Mechanics Were Chosen
+### 16.3 Why These Mechanics Were Chosen
 These mechanics were chosen because they are:
 - essential to the platform genre
 - achievable within the available timescale
@@ -444,13 +444,13 @@ These mechanics were chosen because they are:
 
 ---
 
-## Player Motivation Loop
+## 17.0 Player Motivation Loop
 The game is built using a simple but effective motivation loop.
-### Player State
+### 17.1 Player State
 The player wants to survive and complete each level.
-### Need
+### 17.2 Need
 The player needs to navigate platforms safely while avoiding hazards and enemies.
-### Challenge
+### 17.3 Challenge
 The challenge comes from:
 - platform spacing
 - jump timing
@@ -458,7 +458,7 @@ The challenge comes from:
 - enemies
 - increasing difficulty across levels
 
-### Reward
+### 17.4 Reward
 The reward comes from:
 - successful level completion
 - surviving difficult sections
@@ -469,7 +469,7 @@ This loop supports replayability and encourages the player to keep trying even a
 
 ---
 
-## Game Rules
+## 18.0 Game Rules
 
 The rules of LedgeBound are:
 - The player begins each level at a start point
@@ -484,7 +484,7 @@ These rules ensure the player always understands both their objective and the co
 
 ---
 
-## State Management
+## 19.0 State Management
 
 |**Game State Diagram:** The diagram shows the main gameplay states and transitions in LedgeBound.|
 |-----|
@@ -509,30 +509,30 @@ These rules ensure the player always understands both their objective and the co
 | Level3 Complete | Final level completed | Final Win | Completing the last level shows the final win state. |
 | Final Win | Level3 completed | Main Menu | If level3 completed, the game ends with a congratulation message returning the user to the main menu state. |
 
-## Why State Management Matters
+## 20.0 Why State Management Matters
 State management is important because it helps organise the gameplay flow, UI behaviour and scene changes. It also makes the project easier to test and reduces the risk of conflicting logic between menus, level progression and fail states.
 
 ---
 
-## Programming Language and Platform
+## 21.0 Programming Language and Platform
 
-### Game Engine:
+### 21.1 Game Engine:
 **Unity**
 
-### Programming Language:
+### 21.2 Programming Language:
 **C#**
 
 Chosen because it integrates directly with Unity and supports modular object-oriented scripting(code that defines how game objects behave and interact within the Unity game engine). This helps keep the code organised and maintainable.
 
-### Target Platform:
+### 21.3 Target Platform:
 **Desktop PC**
 
 Selected as the target platform because it allows easier testing during development, supports keyboard controls, and provides a straightforward approach for demonstrating the game.
 
-### Input Method:
+### 21.4 Input Method:
 **Keyboard Controls**, **Mouse Click**
 
-### Justification:
+### 21.5 Justification:
 Unity was chosen because it provides strong support for:
 - 2D game development  
 - built-in systems  
@@ -542,9 +542,9 @@ Unity was chosen because it provides strong support for:
 
 ---
 
-## User Interface and Controls
+## 22.0 User Interface and Controls
 
-### Controls
+### 21.1 Controls
 
 | Action | Input |
 |------|------|
@@ -554,7 +554,7 @@ Unity was chosen because it provides strong support for:
 | Pause | P / Esc |
 | Navigation | Left Mouse Click |
 
-## Planned UI Elements
+## 21.2 Planned UI Elements
 The planned UI elements for **LedgeBound** are:
 
 - Main menu
@@ -567,7 +567,7 @@ The planned UI elements for **LedgeBound** are:
 - Win screen
 - Pause menu
 
-## UI Design Principles
+## 21.3 UI Design Principles
 The interface is designed to be:
 
 - Simple
@@ -580,12 +580,12 @@ The UI should communicate the player’s progress and the current game state cle
 
 ---
 
-## Technical and Programming Challenges
+## 23.0 Technical and Programming Challenges
 
-### Physics and Jump Balancing
+### 23.1 Physics and Jump Balancing
 The jump system must feel responsive and fair. Poor balance between gravity, movement speed and jump force can make the game become frustrating.
 
-### Collision Handling
+### 23.2 Collision Handling
 Reliable collisions are essential for:
 - platforms
 - hazards
@@ -595,23 +595,23 @@ Reliable collisions are essential for:
 
 Any collision issue can directly break the gameplay loop.
 
-### Level Balance
+### 23.3 Level Balance
 Levels must be challenging without becoming unfair, poor spacing or unclear hazards can make the game unlikeable.
 
-### State Coordination
+### 23.4 State Coordination
 Menus, retries, gameplay and end screens all need to transition correctly, this requires careful control of scenes and gameplay states.
 
-### Scope Management
+### 23.5 Scope Management
 The project contains several lower-priority extension ideas such as shops, stars/items and advanced enemy behaviour, these are useful for depth but they also create a risk of over-scoping if not prioritised carefully.
 
-### Enemy Behaviour
+### 23.6 Enemy Behaviour
 Enemy logic needs to be reliable and readable, enemies should create challenge without behaving unpredictably or unfairly.
 
 ---
 
-## Basic Pseudocode
+## 24.0 Basic Pseudocode
 
-### Player Movement
+### 24.1 Player Movement
 ```text
 IF left key is pressed
     move player left
@@ -623,7 +623,7 @@ IF jump key is pressed AND player is grounded
     apply jump motion
 END IF
 ```
-### Hazard Collisions
+### 24.2 Hazard Collisions
 ```text
 WHEN player touches hazard
     reduce lives
@@ -634,7 +634,7 @@ WHEN player touches hazard
     END IF
 END WHEN
 ```
-### Enemy Collisions
+### 24.3 Enemy Collisions
 ```text
 WHEN player touches slime enemy
     apply damage or fail logic
@@ -645,7 +645,7 @@ WHEN player touches slime enemy
     END IF
 END WHEN
 ```
-### Level Comlpetion
+### 24.4 Level Comlpetion
 ```text
 WHEN player reaches end goal
     IF current level is not final level
@@ -658,7 +658,7 @@ END WHEN
 
 ---
 
-## Project Management Approach
+## 25.0 Project Management Approach
 
 The project follows a scrum-inspired agile approach, this means:
 - requirements are converted into scrum user stories
@@ -672,10 +672,10 @@ I have created a seperate file for all the necesarry planning techniques: backlo
 
 ---
 
-## Testing Strategy
+## 26.0 Testing Strategy
 Testing is carried out throughout development rather than only at the end. This allows for issues to be identified early and helps ensure that implemented features match the original design specification.
 
-## Testing Objectives
+## 26.1 Testing Objectives
 Testing is used to confirm that:
 - The game meets the user requirements
 - The game meets the system requirements
@@ -684,7 +684,7 @@ Testing is used to confirm that:
 - Later additions do not break earlier features
 - Every feature works as intended
 
-## Types of Testing
+## 26.2 Types of Testing
 The project uses:
 - Functional testing
 - Collision testing
@@ -692,19 +692,19 @@ The project uses:
 - UI testing
 - State transition testing
 
-## Testing Method
+## 26.3 Testing Method
 Each feature is tested after implementation. If a problem is found, it is logged, fixed and retested. High-priority functions such as movement, jumping, collisions and level completion are tested more frequently since they affect the playability of the whole game.
 Detailed testing evidence such as the test plan and log is found in: [Testing.md](./Testing.md).
 
 ---
 
-## Evaluation
+## 27.0 Evaluation
 Evaluating whats has been done and what is in active development.
 
-### Evidence of Progress Against the Design Specification
+### 27.1 Evidence of Progress Against the Design Specification
 The project demonstrates progress against the design specification through the following completed or clearly defined areas and implemented or in active development below:
 
-### Completed or Strongly Defined:
+### 27.2 Completed or Strongly Defined:
 - Project concept and scope
 - Target audience review
 - User requirements and system requirements
@@ -721,7 +721,7 @@ The project demonstrates progress against the design specification through the f
 - Testing strategy and test plan
 - Research resources (Refrences)
 
-### Implemented or In Active Development:
+### 27.3 Implemented or In Active Development:
 - Unity project setup
 - Player movement
 - Jump behaviour
@@ -734,15 +734,15 @@ The project demonstrates progress against the design specification through the f
 
 This shows the systematically development of the project and that implementation is being measured against the original requirements, user stories, backlog and testing expectations. The acceptance criteria for the prototype is not completed as development is still in progress, the criteria should be met in the second stint.
 
-## Scripts Folder
+## 28.0 Scripts Folder
 The Scripts folder is responsible for the scripts i created in development,
 it is found here: [Scripts](./Scripts)
 
 ---
 
-## Software Tools and Coding Techniques
+## 29.0 Software Tools and Coding Techniques
 
-### Software Tools Used
+### 29.1 Software Tools Used
 | Tool | Purpose |
 |---|---|
 | Unity | Main development engine |
@@ -750,7 +750,7 @@ it is found here: [Scripts](./Scripts)
 | GitHub | Version control and documentation |
 | Diagram / Flowchart tool: Draw.io | Planning logic and state flow |
 
-### Coding Techniques Used
+### 29.2 Coding Techniques Used
 The project uses:
 - object-oriented programming
 - modular script design
@@ -761,7 +761,7 @@ The project uses:
 - state-based logic
 - debugging through Unity console output and repeated playtesting
 
-### Maintainability and Reusability
+### 29.3 Maintainability and Reusability
 Scripts are designed to be reusable wherever possible. For example:
 - one enemy controller can be used across multiple slime enemies
 - one collectible script can manage many pickups
@@ -771,7 +771,7 @@ This reduces duplicated code and improves maintainability.
 
 ---
 
-## References
+## 30.0 References
 Downloaded the following free Sprite Assets to use in unity:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
