@@ -371,6 +371,39 @@ Sound improves the game by:
 
 ---
 
+## Gameplay and Core Mechanics
+### Core Mechanics
+The main mechanics of the game are:
+- Horizontal movement
+- Jumping
+- Gravity and ground checks
+- Platform collision
+- Hazard detection
+- Enemy interaction
+- Item collection
+- Lives tracking
+- Level progression
+- Win and lose states
+
+### Core Gameplay Loop
+1. Start the level  
+2. Move through the environment  
+3. Jump between platforms  
+4. Avoid spike hazards and slime enemies  
+5. Collect optional items  
+6. Retry after failure/death if lives exist  
+7. Reach the end goal  
+8. Progress to the next level or complete the game  
+
+### Why These Mechanics Were Chosen
+These mechanics were chosen because they are:
+- essential to the platform genre
+- achievable within the available timescale
+- strongly aligned with Unity’s strengths
+- highly testable and easy to compare with requirements and backlog items
+
+---
+
 ## State Management
 
 |**Game State Diagram:** The diagram shows the main gameplay states and transitions in LedgeBound.|
