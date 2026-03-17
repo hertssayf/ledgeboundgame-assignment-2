@@ -371,6 +371,45 @@ Sound improves the game by:
 
 ---
 
+## Environment and Level Design
+The game uses a 2D side-scrolling platform environment built from platforms, gaps, hazards, enemies, collectibles and end-goal areas.
+
+### Environment Features
+Each level may contain:
+- safe ground and raised platforms
+- gaps that require accurate jumping
+- spike hazards or traps
+- slime enemies
+- optional collectibles
+- a goal trigger at the end of the level
+
+### Level Design Principles
+The level design is based on the following principles:
+- introduce mechanics gradually
+- increase challenge over time
+- avoid unfair obstacle placement
+- make hazards hard to predict and unique
+- scatter items based on new exploration
+
+### Planned Level Structure
+**Level 1**
+- introduces movement and jumping
+- uses simple platforms
+- introduces basic hazards safely
+
+**Level 2**
+- increases difficulty through tighter jumps and enemy placement
+- begins to reward exploration through optional item placement
+
+**Level 3**
+- combines earlier mechanics into a more demanding level
+- acts as a stronger test of movement, awareness and timing
+
+This progressive structure makes the game easier to learn while still supporting replayability and challenge. 
+Level 1 can be thought to act as a mini toturial before the other two levels begin.
+
+---
+
 ## Gameplay and Core Mechanics
 ### Core Mechanics
 The main mechanics of the game are:
