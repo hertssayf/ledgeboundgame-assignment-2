@@ -15,19 +15,19 @@ This repository contains the game **LedgeBound** developed for the Software Deve
 
 ## Table of Main Contents
 
-- [Project Decision](#2.4-project-decision-2d-side-scrolling-platformer)
-- [Project Aim and Objectives](#4.0-project-aim-and-objectives)
-- [Overall Specification](#5.0-overall-specification--ledge-bound)
-- [User and System Requirements](#6.0-user-and-system-requirements)
-- [Overall Design and Development Strategy](#9.0-overall-design-and-development-strategy)
-- [Artwork and Visual Design](#13.0-artwork-and-visual-design)
-- [Gameplay and Core Mechanics](#16.0-gameplay-and-core-mechanics)
-- [State Management](#19.0-state-management)
-- [Programming Language and Platform](#21.0-programming-language-and-platform)
-- [Basic Pseudocode](#24.0-basic-pseudocode)
-- [Project Management Approach](#25.0-project-management-approach)
-- [Testing Strategy](#26.0-testing-strategy)
-- [Evaluation](#27.0-evaluation)
+- [Project Decision](#24-project-decision-2d-side-scrolling-platformer)
+- [Project Aim and Objectives](#40-project-aim-and-objectives)
+- [Overall Specification](#50-overall-specification--ledge-bound)
+- [User and System Requirements](#60-user-and-system-requirements)
+- [Overall Design and Development Strategy](#90-overall-design-and-development-strategy)
+- [Artwork and Visual Design](#130-artwork-and-visual-design)
+- [Gameplay and Core Mechanics](#160-gameplay-and-core-mechanics)
+- [State Management](#190-state-management)
+- [Programming Language and Platform](#210-programming-language-and-platform)
+- [Basic Pseudocode](#240-basic-pseudocode)
+- [Project Management Approach](#250-project-management-approach)
+- [Testing Strategy](#260-testing-strategy)
+- [Evaluation](#270-evaluation)
 
 ---
 
