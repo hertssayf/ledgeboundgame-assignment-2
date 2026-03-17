@@ -89,7 +89,7 @@ A platform game where the player solves movement-based puzzles to progress.
 ---
 
 ### Project Decision: 2D Side-Scrolling Platformer
-After internal deliberation, I decided to develop a 2D side-scrolling platformer because it fits well with Unity development and allowed me to use Unity for the first time.
+After reviewing the possible project ideas, a 2D side-scrolling platformer was selected as it aligns well with Unity development and provided an opportunity to gain experience using the Unity game engine.
 The platformer structure also makes it easier to divide the game into manageable sections such as player movement, hazards, collectibles, level progression, state management and user interface.
 It allows the project to demonstrate the Scrum software development lifecycle through requirements analysis, design, backlog planning, implementation, testing and review.
 
