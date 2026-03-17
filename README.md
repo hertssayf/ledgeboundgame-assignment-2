@@ -16,7 +16,7 @@ A repository for the game i created for the Software Development 2 module, it is
 ## Reviewing Project Ideas
 
 ### 2D Side-Scrolling Platformer
-A game where the player moves from left to right through levels, jumping across platforms, avoiding hazards and reaching a end goal.
+A game where the player moves from left to right through levels, jumping across platforms, avoiding hazards and reaching an end goal.
 
 **Target audience**
 - Casual gamers
