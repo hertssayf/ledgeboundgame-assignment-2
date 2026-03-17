@@ -592,6 +592,7 @@ Reliable collisions are essential for:
 - enemies
 - collectibles
 - goal triggers
+
 Any collision issue can directly break the gameplay loop.
 
 ### Level Balance
