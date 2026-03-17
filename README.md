@@ -311,7 +311,7 @@ LedgeBound uses a simple story allowing the prototype to be more gameplay driven
 
 Dexter's Background:
 
-A young male adventurer looking to return home, he wears a red cape and has brown/ginger hair with a quiff style. Dexter has an outgoing and postivie personality allowing him to conquer any challenges he is faced with without giving up.
+A young male adventurer looking to return home, he wears a red cape and has brown/ginger hair with a quiff style. Dexter has an outgoing and positive personality allowing him to conquer any challenges he is faced with without giving up.
 |Dexter Sprite|
 |-----|
 | ![60c4e0f2-102e-483f-974c-254e6c823fc1](https://github.com/user-attachments/assets/3f63a3e3-d62e-48b1-be05-7cf4f61669d1) |
