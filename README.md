@@ -256,11 +256,11 @@ The overall design strategy for LedgeBound is to create a platform game focused 
 The game follows an Agile-inspired strategy where high-priority mechanics are implemented first, tested, reviewed and refined before lower-priority ideas are explored. This is a crucial stratergy as it helps keep the project realistic to develop for an individual, while still supporting ambitious ideas in a controlled way increasing the project scope.
 
 ### Design Priorities
-1. Build stable movement and jumping systems
-2. Ensure collisions, hazards and fail states work correctly
-3. Add enemy monsters and level progression
-4. Add clear UI feedback such as lives and level number
-5. Add optional features such as collectibles, multiple levels, checkpoints and shops if time allows
+1. **Stability** — build stable movement and jumping systems
+2. **Functionality** — ensure collisions, hazards and fail states work correctly
+3. **Progression** — add enemy monsters and level progression
+4. **Feedback** — add clear UI feedback such as lives and level number
+5. **Scalibility** — add optional features such as collectibles, multiple levels, checkpoints and shops if time allows
 
 ### Development Order
 Split into the following ten stages:
