@@ -732,7 +732,7 @@ The project demonstrates progress against the design specification through the f
 - Level progression structure
 - Optional collectible systems
 
-This shows the systematically development of the project and that implementation is being measured against the original requirements, user stories, backlog and testing expectations. The acceptance criteria for the prototype is met to a certain extent development is still in progression and the criteria should be met in the second stint.
+This shows the systematically development of the project and that implementation is being measured against the original requirements, user stories, backlog and testing expectations. The acceptance criteria for the prototype is not completed as development is still in progress, the criteria should be met in the second stint.
 
 ## Scripts Folder
 The Scripts folder is responsible for the scripts i created in development,
