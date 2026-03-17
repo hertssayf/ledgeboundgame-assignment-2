@@ -668,7 +668,33 @@ The project follows a scrum-inspired agile approach, this means:
 - testing and refinement happen throughout the development
 
 This approach supports realistic planning and helps keep the project focused on the most important gameplay features first.
-I have created a seperate file for all the necesarry planning techniques: backlog reviews, development meetings and the burndown chart here: [BacklogReviews&Meetings.md](./BacklogReviews&Meetings.md)
+I have created a seperate file for all the necesarry planning techniques: backlog reviews, development meetings and the burndown chart here: [BacklogReviews&Meetings.md](./BacklogReviews&Meetings.md).
+
+---
+
+## Testing Strategy
+Testing is carried out throughout development rather than only at the end. This allows for issues to be identified early and helps ensure that implemented features match the original design specification.
+
+## Testing Objectives
+Testing is used to confirm that:
+- The game meets the user requirements
+- The game meets the system requirements
+- Implemented features match backlog definitions
+- The gameplay loop functions correctly
+- Later additions do not break earlier features
+- Every feature works as intended
+
+## Types of Testing
+The project uses:
+- Functional testing
+- Collision testing
+- Playtesting
+- UI testing
+- State transition testing
+
+## Testing Method
+Each feature is tested after implementation. If a problem is found, it is logged, fixed and retested. High-priority functions such as movement, jumping, collisions and level completion are tested more frequently since they affect the playability of the whole game.
+Detailed testing evidence such as the test plan and log is found in: [Testing.md](./Testing.md).
 
 ---
 
