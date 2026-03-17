@@ -443,6 +443,47 @@ These mechanics were chosen because they are:
 
 ---
 
+## Game Motivation Loop
+The game is built using a simple but effective motivation loop.
+### Player State
+The player wants to survive and complete each level.
+### Need
+The player needs to navigate platforms safely while avoiding hazards and enemies.
+### Challenge
+The challenge comes from:
+- platform spacing
+- jump timing
+- hazards
+- enemies
+- increasing difficulty across levels
+
+### Reward
+The reward comes from:
+- successful level completion
+- surviving difficult sections
+- collecting optional items
+- reaching later stages
+- improving personal performance through repeated attempts
+This loop supports replayability and encourages the player to keep trying even after failure.
+
+---
+
+## Game Rules
+
+The rules of LedgeBound are:
+- The player begins each level at a start point
+- The player must use movement and jumping to navigate the stage
+- Touching hazards or enemies causes damage reuslting in failure or life loss
+- Falling off the level causes failure
+- Reaching the end goal completes the level
+- Lives limit how many mistakes the player can make before game over
+- Collectibles are optional but reward exploration
+- The final level ends in victory if completed
+
+These rules ensure the player always understands both their objective and the consequences of their actions.
+
+---
+
 ## State Management
 
 |**Game State Diagram:** The diagram shows the main gameplay states and transitions in LedgeBound.|
@@ -509,6 +550,7 @@ Unity was chosen because it provides strong support for:
 | Jump | Space / Up Arrow |
 | Pause | P / Esc |
 | Navigation | Left Mouse Click |
+
 ---
 
 ## Refrences
