@@ -1,5 +1,5 @@
 ## Brief Introduction
-A repository for the game i created for the Software Development 2 module, it is a 2D game inspired by the infamous 2D platformer ‘Mario’. 
+This repository contains the game **LedgeBound** developed for the Software Development 2 module. The project is a 2D platform game inspired by the infamous 2D platformer ‘Mario’. 
 
 ---
 
