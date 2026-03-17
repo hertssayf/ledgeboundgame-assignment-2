@@ -34,3 +34,18 @@ it is found here: [Scripts](./Scripts)
 The test log reflects the project priorities by focusing on the most important gameplay mechanics first. This supports a structured development process because the core systems are validated before optional polish features are added.
 
 ---
+
+## Early Stage Inital Development photos:
+<img width="1425" height="915" alt="image" src="https://github.com/user-attachments/assets/a867f8b4-3c24-4186-b584-4f947d70233c" />
+
+---
+
+## Adding Game over and retry button:
+<img width="2557" height="757" alt="image" src="https://github.com/user-attachments/assets/74954738-3db3-4ad4-a993-b3c94dac0ba0" />
+
+---
+
+## Adding Level Complete Panel:
+<img width="2559" height="824" alt="image" src="https://github.com/user-attachments/assets/f9a74e50-1181-4a67-953a-096763ce8761" />
+
+---
