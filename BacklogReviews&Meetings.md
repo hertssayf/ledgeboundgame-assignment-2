@@ -18,6 +18,13 @@ Optional features such as multiple levels, checkpoints, shop items, stars/items,
 
 ---
 
+## Group Sprint Meeting
+Date: Wednesday 25th February 25/02/26
+Meeting Topic: **Describing your first planned sprint and what it will include?**
+Meeting Output: The first sprint will include a detailed github repository for my game known as 'LedgeBound', Within the first sprint development and planning will be done using the Scrum software development lifecycle. My prototype should end with a game that has the core 2D side-scrolling platformer features and mechanics which will then be improved on in the second sprint.
+
+---
+
 ## Development Review Meetings
 
 ### Review Meeting 1 – 11 February 2026
