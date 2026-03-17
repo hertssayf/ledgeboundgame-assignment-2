@@ -509,6 +509,9 @@ These rules ensure the player always understands both their objective and the co
 | Level3 Complete | Final level completed | Final Win | Completing the last level shows the final win state. |
 | Final Win | Level3 completed | Main Menu | If level3 completed, the game ends with a congratulation message returning the user to the main menu state. |
 
+## Why State Management Matters
+State management is important because it helps organise the gameplay flow, UI behaviour and scene changes. It also makes the project easier to test and reduces the risk of conflicting logic between menus, level progression and fail states.
+
 ---
 
 ## Programming Language and Platform
