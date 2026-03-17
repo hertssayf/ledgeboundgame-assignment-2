@@ -552,7 +552,7 @@ Unity was chosen because it provides strong support for:
 
 ---
 
-## Refrences
+## References
 Downloaded the following free Sprite Assests to use in unity:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
