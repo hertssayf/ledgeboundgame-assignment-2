@@ -464,22 +464,18 @@ The level design is based on the following principles:
 - introduce hazards that require timing and careful movement
 - scatter items based on new exploration
 
-### 15.3 Planned Level Structure
-**Level 1**
-- introduces movement and jumping
-- uses simple platforms
-- introduces basic hazards safely
+### 15.3 Final Level Structure
 
-**Level 2**
-- increases difficulty through tighter jumps and enemy placement
-- begins to reward exploration through optional item placement
+The final prototype focuses mainly on one complete playable level. This was chosen so that the core mechanics could be tested properly rather than spreading development time across several unfinished levels.
+The final level follows this structure:
 
-**Level 3**
-- combines earlier mechanics into a more demanding level
-- acts as a stronger test of movement, awareness and timing
+1. **Start area** – the player begins at a safe spawn point and can test movement and jumping.
+2. **Platforming area** – the player moves across ground and platforms to demonstrate traversal.
+3. **Hazard area** – spike hazards are introduced to test risk, damage and respawn behaviour.
+4. **Enemy area** – slime enemies are placed as active obstacles to increase challenge.
+5. **End goal area** – the player reaches the goal flag to trigger level completion.
 
-This progressive structure makes the game easier to learn while still supporting replayability and challenge. 
-Level 1 can be thought to act as a mini tutorial before the other two levels begin.
+This structure creates a simple but complete platformer loop: start, move, jump, avoid danger, survive and reach the goal. Future versions could expand this into three levels, where Level 1 introduces the mechanics, Level 2 increases hazard and enemy difficulty, and Level 3 combines all mechanics into a final challenge.
 
 ---
 
