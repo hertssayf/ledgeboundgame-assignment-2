@@ -308,7 +308,7 @@ The backlog shows that the highest-priority features were completed first becaus
 
 The overall design strategy for LedgeBound is to create a platform game focused prototype that is stable, visually clear to navigate and easy to test. The project has been designed around the principle of starting with **building a stable core game**, then adding low and medium priority scrum features, this development strategy improves project management and allows the implemented game to be compared clearly with the original design specification.
 
-The game follows an Agile-inspired strategy where high-priority mechanics are implemented first, tested, reviewed and refined before lower-priority ideas are explored. This is a crucial stratergy as it helps keep the project realistic to develop for an individual, while still supporting ambitious ideas in a controlled way increasing the project scope.
+The game follows an Agile-inspired strategy where high-priority mechanics are implemented first, tested, reviewed and refined before lower-priority ideas are explored. This is a crucial strategy as it helps keep the project realistic to develop for an individual, while still supporting ambitious ideas in a controlled way increasing the project scope.
 
 ### 9.1 Design Priorities
 1. **Stability** - build stable movement and jumping systems
@@ -734,7 +734,7 @@ WHEN player touches slime enemy
     END IF
 END WHEN
 ```
-### 24.4 Level Comlpetion
+### 24.4 Level Completion
 ```text
 WHEN player reaches end goal
     IF current level is not final level
