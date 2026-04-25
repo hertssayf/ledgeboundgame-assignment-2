@@ -27,7 +27,8 @@ it is found here: [Scripts](./Scripts)
 | T15 | Checkpoint System | Activate checkpoint then fail | Respawn occurs at checkpoint | Pass | Planned | Lower priority |
 | T16 | Shop / Unlockable Items | Access shop and unlock an item | Shop logic works correctly if implemented | Pass | Planned | Stretch target only |
 | T17 | Stars / Extra Items | Collect stars/items on a level | Collection is recorded correctly | Pass | Planned | Stretch target only |
-
+| T18 | Dash mechanic | Press dash key while moving | Player quickly dashes in the chosen direction | Pass | Sprint2 feature |
+| T19 | Double jump | Press jump once on ground, then again in air | Player performs one extra jump only | Pass | Sprint2 feature |
 ---
 
 ## Test Log Evaluation
