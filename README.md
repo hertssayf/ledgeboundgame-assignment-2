@@ -688,7 +688,9 @@ The project contains several lower-priority extension ideas such as shops, stars
 Enemy logic needs to be reliable and readable, enemies should create challenge without behaving unpredictably or unfairly.
 
 ### 23.7 Final Technical Challenge Evaluation
-The main technical challenges were related to Unity physics, collision detection and scene setup. Platform games depend heavily on reliable collisions, so small configuration issues can affect the entire experience. For example, if the ground check is too large, the player may jump at the wrong time; if a hazard collider is not configured correctly, the spike may not damage the player; and if an enemy is outside the camera view, it may appear as if the feature is broken. These issues were handled through repeated playtesting, inspector checks and script separation. Instead of placing all logic in one large file, the project uses separate scripts for player behaviour, hazards, enemy patrol, goal detection and game management. This improves maintainability because each script has a clear responsibility.
+The main technical challenges were related to Unity physics, collision detection and scene setup. Platform games depend heavily on reliable collisions, so small configuration issues can affect the entire experience. For example, if the ground check is too large, the player may jump at the wrong time; if a hazard collider is not configured correctly, the spike may not damage the player; and if an enemy is outside the camera view, it may appear as if the feature is broken.
+
+These issues were handled through repeated playtesting, inspector checks and script separation. Instead of placing all logic in one large file, the project uses separate scripts for player behaviour, hazards, enemy patrol, goal detection and game management. This improved maintainability because each script has a clear responsibility.
 
 ---
 
