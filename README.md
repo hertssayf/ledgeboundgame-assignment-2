@@ -243,6 +243,8 @@ The project is considered successful if:
 
 ## 7.0 Scrum-Style User Stories:
 
+The Scrum-Style User Stories were made more clearer and detailed including an acceptance criteria.
+
 | User Story ID | Priority | User Story                                                                                         | Purpose / Justification                                               | Acceptance Criteria                                                                            |
 | ------------- | -------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | US1           | High     | As a player, I want to move left and right so that I can navigate through the level.               | Core mechanic required for all gameplay and level traversal.          | The player moves left and right using keyboard input without freezing or drifting incorrectly. |
