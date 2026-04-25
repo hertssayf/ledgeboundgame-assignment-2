@@ -95,6 +95,7 @@ The burndown chart shows steady progress across development. It helped identify 
 The burndown chart shows that the project made steady progress from Week 1 to the final submission week. The planned tasks reduced gradually as core gameplay features were implemented, including movement, jumping, hazards, lives, level completion, dash and double jump. The actual task count was slightly higher than planned during the middle of development because extra issues were discovered, such as slime enemy setup, collision behaviour, ground check adjustments and testing improvements.
 
 This difference between planned and actual progress shows that the project required iteration rather than following the plan exactly. Some optional features, such as collectibles, checkpoints, multiple levels and a shop system, were moved into future development so that the final Sprint 2 prototype could focus on the most important playable features. By the final submission week, the remaining tasks had been completed or documented as future improvements.
+
 ---
 
 ## Sprint 2 Backlog Meeting
