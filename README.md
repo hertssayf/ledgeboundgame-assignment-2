@@ -627,11 +627,12 @@ Unity was chosen because it provides strong support for:
 ### 21.1 Controls
 
 | Action | Input |
-|------|------|
+|---|---|
 | Move Left | A / Left Arrow |
 | Move Right | D / Right Arrow |
-| Jump | Space / Up Arrow |
-| Pause | P / Esc |
+| Jump | Space |
+| Double Jump | Press Space again while airborne |
+| Dash | Left Shift |
 | Navigation | Left Mouse Click |
 
 ## 21.2 Planned UI Elements
