@@ -324,6 +324,29 @@ Split into the following ten stages:
 - **Stage 9:** Add optional features and polish prototype
 - **Stage 10:** Test, debug and refine
 
+### 9.3 Sprint 2 Design and Development Updates
+
+Sprint 2 focused on converting the early design into a more complete playable prototype. The main changes were:
+* Hazard functionality was added using spike objects and a reusable hazard script.
+* Slime enemies were added to act as dynamic obstacles.
+* A goal flag trigger was added to create a clear level complete condition.
+* Lives and level UI were added so the player receives feedback during gameplay.
+* Game over and level complete panels were added to make win and lose states clearer.
+* Testing was expanded so that implemented features could be compared against user stories and acceptance criteria.
+* Optional features were reviewed and moved into future development where they were not essential for the final prototype.
+
+The design strategy remained Agile-inspired. The project was developed through small improvements, with each major mechanic being implemented, tested, reviewed and refined before moving on to lower-priority features.
+
+### 9.4 Problems Encountered and Solutions
+
+| Problem / Barrier                                    | Cause                                                                          | Solution / Response                                                                        | Impact on Project                                                      |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| Ground check area was too wide                       | The ground check object did not match the player width correctly.              | The ground check was resized and repositioned in the Unity scene.                          | Improved jump reliability and reduced false grounded detection.        |
+| Hazard spikes needed to function correctly           | Spikes existed visually but required collision/trigger behaviour.              | Hazard.cs was attached and configured to call the player damage method.                    | Spike hazards became functional gameplay obstacles.                    |
+| Slime enemy visibility/functionality needed checking | Enemy object position, sprite settings or camera view could stop it appearing. | The slime object, patrol points, transform position and Game view visibility were checked. | Helped turn the slime from a planned feature into a testable obstacle. |
+| Camera follow stopped at part of the level           | Camera movement can be limited by follow settings or scene boundaries.         | Camera behaviour was reviewed so the player remained visible during gameplay.              | Improved playability and demonstration quality.                        |
+| Scope became too large                               | Features like shops, checkpoints and collectibles added complexity.            | Optional ideas were moved to future development.                                           | Kept the final prototype realistic and focused on core marks.          |
+
 ---
 
 ## 10.0 Project Scope and Minimum Viable Product (MVP)
