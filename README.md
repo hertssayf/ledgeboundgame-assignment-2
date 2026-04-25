@@ -292,6 +292,10 @@ The product backlog was updated for Sprint 2 to add user story link, development
 | B19        | US14            | Add shop/unlock system                      | Low      |     8        | Future         | Not completed    | Player can unlock items.                                       | Future test: collect currency and unlock an item.                |
 | B20        | US15            | Add sound effects                           | Low      |     3        | Future         | Not completed    | Sounds play for jump, damage and completion.                   | Future test: trigger each action and confirm audio.              |
 
+### 8.1 Backlog Evaluation
+
+The backlog shows that the highest-priority features were completed first because they form the core playable platformer prototype. Player movement, jumping, platform collision, hazards, enemies, lives and level completion were prioritised because they directly affect whether the game can be played and tested. Lower-priority features such as collectibles, checkpoints, multiple levels and shop systems were moved into future development because they would increase scope without being essential to the core gameplay loop. This change demonstrates improved scope control from Sprint 1 to Sprint 2. Instead of trying to complete every possible feature, the final prototype focuses on delivering a stable version of the game that meets the main user and system requirements.
+
 ---
 
 ## 9.0 Overall Design and Development Strategy
