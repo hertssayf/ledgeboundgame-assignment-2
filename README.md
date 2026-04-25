@@ -262,6 +262,8 @@ The Scrum-Style User Stories were made more clearer and detailed including an ac
 | US13          | Low      | As a player, I want advanced enemy behaviour so that later levels feel more varied.                | Advanced enemy AI improves challenge but is not essential.            | Enemies patrol or react more dynamically if implemented.                                       |
 | US14          | Low      | As a player, I want a shop or unlockable items so that the game has extra depth.                   | This is a stretch goal for replayability.                             | The player can unlock or access items if implemented.                                          |
 | US15          | Low      | As a player, I want sound and visual feedback so that actions feel more satisfying.                | Feedback improves game feel and polish.                               | Sound or visual effects play for important events if implemented.                              |
+| US16          | Medium   | As a player, I want to dash so that I can move quickly across gaps and avoid hazards.              | Dash increases movement variety and gives the player more control.    | Pressing the dash input moves the player quickly in the chosen direction for a short time.     |
+| US17          | Medium   | As a player, I want to double jump so that I can recover from mistakes and reach higher platforms. | Double jump improves mobility and allows more unique level design.    | The player can jump once in the air after the first jump, but cannot jump infinitely.          |
 
 ---
 
@@ -291,6 +293,8 @@ The product backlog was updated for Sprint 2 to add user story link, development
 | B18        | US12            | Add checkpoints                             | Low      |     5        | Future         | Not completed    | Player respawns at latest checkpoint.                          | Future test: activate checkpoint, fail and respawn there.        |
 | B19        | US14            | Add shop/unlock system                      | Low      |     8        | Future         | Not completed    | Player can unlock items.                                       | Future test: collect currency and unlock an item.                |
 | B20        | US15            | Add sound effects                           | Low      |     3        | Future         | Not completed    | Sounds play for jump, damage and completion.                   | Future test: trigger each action and confirm audio.              |
+| B21        | US16            | Dash mechanic                               | Medium   |     5        | Sprint2        | Completed        | Player can dash for a short burst                              | Player can dash in the air                                       |
+| B22        | US17            | Double jump mechanic                        | Medium   |     5        | sprint2        | Completed        | Player can perform one extra jump in the air                   | Player can perform one extra jump in the air                     |
 
 ### 8.1 Backlog Evaluation
 
@@ -484,16 +488,18 @@ This structure creates a simple but complete platformer loop: start, move, jump,
 ### 16.1 Implemented Core Mechanics
 
 The final Sprint 2 prototype includes the following core mechanics:
-* Horizontal player movement.
-* Jumping using a grounded check.
-* Gravity and Rigidbody2D physics.
-* Platform and terrain collision.
-* Spike hazard interaction.
-* Slime enemy interaction.
-* Lives tracking.
-* Level number display.
-* Goal flag / level complete trigger.
-* Game over and retry behaviour.
+- Horizontal player movement.
+- Jumping using a grounded check.
+- Gravity and Rigidbody2D physics.
+- Platform and terrain collision.
+- Spike hazard interaction.
+- Slime enemy interaction.
+- Lives tracking.
+- Level number display.
+- Goal flag / level complete trigger.
+- Game over and retry behaviour.
+- Dash movement ability.
+- Double jump ability.
 
 ### 16.2 Core Gameplay Loop
 
