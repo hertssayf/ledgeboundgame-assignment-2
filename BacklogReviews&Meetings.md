@@ -76,6 +76,20 @@ The burndown chart shows steady progress across development. It helped identify 
 
 ## Sprint 2 Backlog Meeting
 
-## Review Meeting 25/04/2026
+## Review Meeting 1 16/04/2026
 All core mechanics are inmplemented allowing the prototype to complete the acceptance criteria at the end of sprint 2 and is ready for assignment 2 submission.
 Next task: record a 3 minute demo of the current game.
+
+## Review Meeting 2 25/04/2026
+
+**What did you do since the last meeting?**  
+The Sprint 2 prototype was improved by completing the main gameplay systems. Spike hazards, slime enemy interaction, lives, game over feedback, level complete feedback, dash and double jump were reviewed and tested.
+
+**What are you planning on doing during this session?**  
+The final task is to check the README, testing log, backlog and video vignette script so that the GitHub repository clearly shows the final Sprint 2 development evidence.
+
+**Current problems and barriers**  
+The main barrier was keeping the project scope realistic. Extra features such as checkpoints, collectibles, multiple levels and shop systems were moved to future development so the submitted prototype could focus on stable core gameplay.
+
+**Outcome**  
+The final prototype meets the main acceptance criteria and is ready for Assignment 2 submission after final formatting and proofreading.
