@@ -1,3 +1,9 @@
+# Assignment 2 - Sprint 2 Development
+
+This repository continues from the Assignment 1 prototype and expands the project for SD2 Assignment 2. The original commit history has been preserved to show earlier development, while new commits from this point show Sprint 2 updates, testing, backlog reviews and improvements.
+
+---
+
 ## 1.0 Brief Introduction
 This repository contains the game **LedgeBound** developed for the Software Development 2 module. The project is a 2D platformer game inspired by the hit classic Mario. 
 
