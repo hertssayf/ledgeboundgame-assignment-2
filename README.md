@@ -624,7 +624,7 @@ Unity was chosen because it provides strong support for:
 
 ## 22.0 User Interface and Controls
 
-### 21.1 Controls
+### 22.1 Controls
 
 | Action | Input |
 |---|---|
@@ -635,29 +635,28 @@ Unity was chosen because it provides strong support for:
 | Dash | Left Shift |
 | Navigation | Left Mouse Click |
 
-## 21.2 Planned UI Elements
-The planned UI elements for **LedgeBound** are:
+### 22.2 Implemented UI Elements
 
-- Main menu
-- Start/Play button
-- Level indicator
-- Lives display
-- Items display indicator
-- Game over screen
-- Death screen
-- Win screen
-- Pause menu
+The final prototype includes simple UI elements that support gameplay feedback:
+- Lives display.
+- Level number display.
+- Game over panel.
+- Level complete panel.
+- Retry or button-based navigation where required.
 
-## 21.3 UI Design Principles
-The interface is designed to be:
+### 22.3 Planned / Future UI Elements
 
-- Simple
-- Readable
-- Consistent
-- Supports the gameplay
-- Easy to understand
+Future versions could include:
+- Main menu improvements.
+- Pause menu.
+- Settings menu.
+- Collectible counter.
+- Sound toggle.
+- Improved win screen.
 
-The UI should communicate the player’s progress and the current game state clearly, while avoiding unnecessary clutter.
+### 22.4 UI Design Principles
+
+The UI is designed to be simple, readable and low-clutter. This is important because the player should focus mainly on movement, hazards and enemies rather than complex menus. The UI supports the gameplay by showing the most important information: lives, level progress, failure and completion.
 
 ---
 
@@ -687,6 +686,9 @@ The project contains several lower-priority extension ideas such as shops, stars
 
 ### 23.6 Enemy Behaviour
 Enemy logic needs to be reliable and readable, enemies should create challenge without behaving unpredictably or unfairly.
+
+### 23.7 Final Technical Challenge Evaluation
+The main technical challenges were related to Unity physics, collision detection and scene setup. Platform games depend heavily on reliable collisions, so small configuration issues can affect the entire experience. For example, if the ground check is too large, the player may jump at the wrong time; if a hazard collider is not configured correctly, the spike may not damage the player; and if an enemy is outside the camera view, it may appear as if the feature is broken. These issues were handled through repeated playtesting, inspector checks and script separation. Instead of placing all logic in one large file, the project uses separate scripts for player behaviour, hazards, enemy patrol, goal detection and game management. This improves maintainability because each script has a clear responsibility.
 
 ---
 
