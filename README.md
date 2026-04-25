@@ -269,7 +269,7 @@ The Scrum-Style User Stories were made more clearer and detailed including an ac
 
 The product backlog was updated for Sprint 2 to add user story link, development tasks, testing and Story points. Story points were estimated using a simple scale where 1 is small, 3 is moderate, 5 is complex and 8 is high effort.
 
-| Backlog ID | User Story Link | Feature / Development Task                  | Priority | Story Points | Sprint         | Status           | Definition of Done                                             | Acceptance Test                                                  |
+| Backlog ID | User Story Link | Feature / Development Task                  | Priority | StoryPoints  | Sprint         | Status           | Definition of Done                                             | Acceptance Test                                                  |
 | ---------- | --------------- | ------------------------------------------- | -------- | --------:    | -------------- | ---------------- | -------------------------------------------------------------- | ---------------------------------------------------------------- |
 | B1         | US1             | Implement player left/right movement        | High     |     3        | Sprint1        | Complete         | Player moves smoothly using keyboard input.                    | Press A/D or arrow keys and confirm movement in both directions. |
 | B2         | US2             | Implement jump mechanic and grounded check  | High     |     5        | Sprint1        | Complete         | Player jumps only while grounded and lands correctly.          | Press Space while grounded and confirm controlled jump/landing.  |
