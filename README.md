@@ -153,36 +153,53 @@ To develop a functional 2D side-scrolling platform game in which the player runs
 
 ---
 
-## 5.0 Overall Specification – Ledge Bound
+## 5.0 Overall Specification – LedgeBound
 
-### 5.1 Core Features Requirements
-- The player must be able to run and jump smoothly
-- The player must be able to move through side-scrolling levels
-- The game must contain platforms, gaps and hazards
-- The game must include enemy monster sprites (slimes)
-- The game must include multiple levels
-- The game must contain win and lose conditions
-- The UI must display lives and level number
-- The game should provide sound and visual feedback
+### 5.1 Final Core Feature Requirements
 
-### 5.2 Optional Features Requirements
-- Checkpoints
-- Pause menu
-- Additional level themes
-- Improved enemy movement
-- Animated effects
-- Include collectible cosmetic items
-- Add a score function
-- Night and day backgrounds
+LedgeBound is designed as a 2D side-scrolling platformer prototype where the player controls Dexter, an adventurer who must move across a dangerous level, avoid hazards, interact with enemies and reach the goal flag. The final Sprint 2 prototype focuses on delivering a stable and testable core gameplay loop rather than attempting to include every optional idea from the original plan.
 
-### 5.3 Acceptance Criteria
-The project will be considered successful if:
-- The player can move and jump accurately
-- Platform and hazard collisions function correctly
-- Enemy monster interactions work correctly
-- At least one complete playable level is included
-- Win and lose conditions function correctly
-- The UI displays level and lives clearly
+The final core requirements are:
+
+* The player must be able to move left and right using keyboard input.
+* The player must be able to jump using a grounded check so jumping feels controlled and fair.
+* The level must include platforms, ground terrain, gaps and spike hazards.
+* The game must include slime enemies as dynamic obstacles.
+* Touching a hazard or enemy must trigger damage, life loss or respawn behaviour.
+* Falling below the level must trigger a fail/respawn response.
+* The level must include an end goal that triggers the level complete state.
+* The game must include visible UI feedback such as lives and level number.
+* The prototype must include game over and level complete feedback.
+* The software must be documented, tested and linked to the original user stories and backlog.
+
+### 5.2 Optional / Future Feature Requirements
+
+Some features were considered useful but were not treated as essential for the final Sprint 2 prototype. These remain future development ideas:
+
+* Additional levels beyond the current prototype level.
+* Checkpoints for longer levels.
+* Collectibles and score tracking.
+* Shop or unlockable cosmetic items.
+* More advanced enemy behaviour.
+* Sound effects and music polish.
+* Main menu and pause menu improvements.
+* More detailed animations and visual effects.
+
+These features were kept lower priority because the assignment required a working and testable prototype. The main focus was therefore placed on correctness, stability, maintainability and demonstrating the core platformer mechanics.
+
+### 5.3 Final Acceptance Criteria
+
+The project is considered successful if:
+
+* The player can move left and right correctly.
+* The player can jump and land on platforms reliably.
+* The player cannot fall through the main terrain during normal gameplay.
+* Spike hazards trigger the intended damage or respawn behaviour.
+* Slime enemies act as obstacles and interact with the player through collision or trigger detection.
+* The player can reach the goal flag and activate the level complete state.
+* Lives and level number are visible to the player.
+* Game over or retry behaviour is triggered when the player fails.
+* The project is documented through the README, backlog, testing log and development review evidence.
 
 ---
 
