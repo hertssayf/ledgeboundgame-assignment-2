@@ -18,15 +18,15 @@ it is found here: [Scripts](./Scripts)
 | T6 | End Goal | Reach level goal trigger | Level completes or next level loads | Pass | Complete | done in Sprint2 |
 | T7 | Retry System | Fail a level | Player restarts correctly | Pass | Complete | Linked to lives logic |
 | T8 | Lives Display | Take repeated damage | Lives decrease correctly and remain visible | Pass | Complete | UI still being refined |
-| T9 | Level Indicator | Load different levels | Correct level number is displayed | Pass | Planned | Requires multi-level integration |
-| T10 | Cosmetic Collectibles | Touch collectible item | Item disappears and reward is registered | Pass | Planned | Optional feature |
-| T11 | Sound Feedback | Trigger jump, damage and finish actions | Correct sound plays | Pass | Planned | Audio to be finalised |
-| T12 | Main Menu | Start the game from menu | Gameplay launches correctly | Pass | Planned | Menu flow still being refined |
-| T13 | Game Over State | Lose all lives | Game over screen appears | Pass | Planned | Depends on final fail-state integration |
-| T14 | Multiple Levels | Complete one level | Next level loads correctly | Pass | Planned | Lower priority |
-| T15 | Checkpoint System | Activate checkpoint then fail | Respawn occurs at checkpoint | Pass | Planned | Lower priority |
-| T16 | Shop / Unlockable Items | Access shop and unlock an item | Shop logic works correctly if implemented | Pass | Planned | Stretch target only |
-| T17 | Stars / Extra Items | Collect stars/items on a level | Collection is recorded correctly | Pass | Planned | Stretch target only |
+| T9 | Level Indicator | Load different levels | Correct level number is displayed | Shows level text | Planned | Requires multi-level integration |
+| T10 | Cosmetic Collectibles | Touch collectible item | Item disappears and reward is registered | No data | Planned | Optional feature |
+| T11 | Sound Feedback | Trigger jump, damage and finish actions | Correct sound plays | No data | Planned | Audio to be finalised |
+| T12 | Main Menu | Start the game from menu | Gameplay launches correctly | No data | Planned | Menu flow still being refined |
+| T13 | Game Over State | Lose all lives | Game over screen appears | Able to lose all lives | Planned | Depends on final fail-state integration |
+| T14 | Multiple Levels | Complete one level | Next level loads correctly | No data | Planned | Lower priority |
+| T15 | Checkpoint System | Activate checkpoint then fail | Respawn occurs at checkpoint | No data | Planned | Lower priority |
+| T16 | Shop / Unlockable Items | Access shop and unlock an item | Shop logic works correctly if implemented | No data | Planned | Stretch target only |
+| T17 | Stars / Extra Items | Collect stars/items on a level | Collection is recorded correctly | No data | Planned | Stretch target only |
 | T18 | Dash mechanic | Press dash key while moving | Player quickly dashes in the chosen direction | Pass | Complete | Sprint2 feature |
 | T19 | Double jump | Press jump once on ground, then again in air | Player performs one extra jump only | Pass | Complete | Sprint2 feature |
 ---
