@@ -72,6 +72,29 @@ The burndown chart shows steady progress across development. It helped identify 
 | Week 3 | 25 Feb 2026 – 3 Mar 2026 | 15 | 16 |
 | Week 4 | 4 Mar 2026 – 10 Mar 2026 | 12 | 13 |
 
+## Burndown Chart
+
+The burndown chart shows steady progress across development. It helped identify where priorities needed to be adjusted so the core playable game remained the main focus. Additional tasks were discovered during development because of bugs and implementation issues.
+
+| Week | Date Range | Planned Tasks Remaining | Actual Tasks Remaining |
+|---|---|---:|---:|
+| Week 1 | 11 Feb 2026 – 17 Feb 2026 | 20 | 20 |
+| Week 2 | 18 Feb 2026 – 24 Feb 2026 | 18 | 18 |
+| Week 3 | 25 Feb 2026 – 3 Mar 2026 | 15 | 16 |
+| Week 4 | 4 Mar 2026 – 10 Mar 2026 | 12 | 13 |
+| Week 5 | 11 Mar 2026 – 17 Mar 2026 | 9 | 11 |
+| Week 6 | 18 Mar 2026 – 24 Mar 2026 | 6 | 8 |
+| Week 7 | 25 Mar 2026 – 31 Mar 2026 | 4 | 6 |
+| Week 8 | 1 Apr 2026 – 7 Apr 2026 | 2 | 4 |
+| Week 9 | 8 Apr 2026 – 14 Apr 2026 | 1 | 2 |
+| Week 10 | 15 Apr 2026 – 21 Apr 2026 | 0 | 1 |
+| Final Submission Week | 22 Apr 2026 – 25 Apr 2026 | 0 | 0 |
+
+### Burndown Chart Review
+
+The burndown chart shows that the project made steady progress from Week 1 to the final submission week. The planned tasks reduced gradually as core gameplay features were implemented, including movement, jumping, hazards, lives, level completion, dash and double jump. The actual task count was slightly higher than planned during the middle of development because extra issues were discovered, such as slime enemy setup, collision behaviour, ground check adjustments and testing improvements.
+
+This difference between planned and actual progress shows that the project required iteration rather than following the plan exactly. Some optional features, such as collectibles, checkpoints, multiple levels and a shop system, were moved into future development so that the final Sprint 2 prototype could focus on the most important playable features. By the final submission week, the remaining tasks had been completed or documented as future improvements.
 ---
 
 ## Sprint 2 Backlog Meeting
