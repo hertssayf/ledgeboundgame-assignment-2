@@ -480,35 +480,36 @@ This structure creates a simple but complete platformer loop: start, move, jump,
 ---
 
 ## 16.0 Gameplay and Core Mechanics
-### 16.1 Core Mechanics
-The main mechanics of the game are:
-- Horizontal movement
-- Jumping
-- Gravity and ground checks
-- Platform collision
-- Hazard detection
-- Enemy interaction
-- Item collection
-- Lives tracking
-- Level progression
-- Win and lose states
+
+### 16.1 Implemented Core Mechanics
+
+The final Sprint 2 prototype includes the following core mechanics:
+* Horizontal player movement.
+* Jumping using a grounded check.
+* Gravity and Rigidbody2D physics.
+* Platform and terrain collision.
+* Spike hazard interaction.
+* Slime enemy interaction.
+* Lives tracking.
+* Level number display.
+* Goal flag / level complete trigger.
+* Game over and retry behaviour.
 
 ### 16.2 Core Gameplay Loop
-1. Start the level  
-2. Move through the environment  
-3. Jump between platforms  
-4. Avoid spike hazards and slime enemies  
-5. Collect optional items  
-6. Retry after failure/death if lives exist  
-7. Reach the end goal  
-8. Progress to the next level or complete the game  
 
-### 16.3 Why These Mechanics Were Chosen
-These mechanics were chosen because they are:
-- essential to the platform genre
-- achievable within the available timescale
-- strongly aligned with Unity’s strengths
-- highly testable and easy to compare with requirements and backlog items
+The gameplay loop is:
+1. The player starts at the spawn point.
+2. The player moves through the level using keyboard controls.
+3. The player jumps across platforms and gaps.
+4. The player avoids spikes and slime enemies.
+5. If the player touches a hazard, enemy or falls below the level, they lose a life or respawn.
+6. If lives remain, the player can continue or retry.
+7. If no lives remain, the game over state is shown.
+8. If the player reaches the goal flag, the level complete state is shown.
+
+### 16.3 Why These Mechanics Were Prioritised
+
+These mechanics were prioritised because they represent the essential requirements of a 2D platformer. Movement and jumping make the game playable, collisions make the level stable, hazards and enemies create challenge, and goal/game over states make success and failure clear. This also makes the project easier to test because each feature can be linked directly to a user story, backlog item and acceptance test.
 
 ---
 
