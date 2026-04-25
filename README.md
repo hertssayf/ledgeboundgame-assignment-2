@@ -333,13 +333,15 @@ Split into the following ten stages:
 ### 9.3 Sprint 2 Design and Development Updates
 
 Sprint 2 focused on converting the early design into a more complete playable prototype. The main changes were:
-* Hazard functionality was added using spike objects and a reusable hazard script.
-* Slime enemies were added to act as dynamic obstacles.
-* A goal flag trigger was added to create a clear level complete condition.
-* Lives and level UI were added so the player receives feedback during gameplay.
-* Game over and level complete panels were added to make win and lose states clearer.
-* Testing was expanded so that implemented features could be compared against user stories and acceptance criteria.
-* Optional features were reviewed and moved into future development where they were not essential for the final prototype.
+- Hazard functionality was added using spike objects and a reusable hazard script.
+- Slime enemies were added to act as dynamic obstacles.
+- A goal flag trigger was added to create a clear level complete condition.
+- Lives and level UI were added so the player receives feedback during gameplay.
+- Game over and level complete panels were added to make win and lose states clearer.
+- Testing was expanded so that implemented features could be compared against user stories and acceptance criteria.
+- Optional features were reviewed and moved into future development where they were not essential for the final prototype.
+- Dash movement was added to give the player a short burst of speed.
+- Double jump was added to improve mobility and allow more varied platform design.
 
 The design strategy remained Agile-inspired. The project was developed through small improvements, with each major mechanic being implemented, tested, reviewed and refined before moving on to lower-priority features.
 
