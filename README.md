@@ -768,14 +768,19 @@ Testing is used to confirm that:
 - The gameplay loop functions correctly
 - Later additions do not break earlier features
 - Every feature works as intended
+- Features match the updated Sprint 2 backlog
+- Changes made during Sprint 2 did not break earlier Sprint 1 mechanics
 
 ## 26.2 Types of Testing
-The project uses:
-- Functional testing
-- Collision testing
-- Playtesting
-- UI testing
-- State transition testing
+
+| Testing Type             | Purpose                                                                             |
+| ------------------------ | ----------------------------------------------------------------------------------- |
+| Functional testing       | Checks whether each feature performs its intended behaviour.                        |
+| Collision testing        | Checks platform, hazard, enemy and goal interactions.                               |
+| Playtesting              | Checks whether the level feels playable and fair.                                   |
+| UI testing               | Checks whether lives, level text and panels display correctly.                      |
+| State transition testing | Checks movement between playing, death, retry, game over and level complete states. |
+| Regression testing       | Checks that new features do not break previously working mechanics.                 |
 
 ## 26.3 Testing Method
 Each feature is tested after implementation. If a problem is found, it is logged, fixed and retested. High-priority functions such as movement, jumping, collisions and level completion are tested more frequently since they affect the playability of the whole game.
@@ -783,8 +788,8 @@ Detailed testing evidence such as the test plan and log is found in: [Testing.md
 
 ---
 
-## 27.0 Evaluation
-Evaluating whats has been done and what is in active development.
+## 27.0 Final Evaluation
+Evaluating what has been done after both sprint 1 & 2 and what is in future development.
 
 ### 27.1 Evidence of Progress Against the Design Specification
 The project demonstrates progress against the design specification through the following completed or clearly defined areas and implemented or in active development below:
