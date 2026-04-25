@@ -514,11 +514,11 @@ These mechanics were prioritised because they represent the essential requiremen
 ---
 
 ## 17.0 Player Motivation Loop
-The game is built using a simple but effective motivation loop.
+The game is built using a simple but effective motivation loop. The motivation loop is based on challenge, retry and progression.
 ### 17.1 Player State
-The player wants to survive and complete each level.
+The player begins with the goal of reaching the end of the level safely.
 ### 17.2 Need
-The player needs to navigate platforms safely while avoiding hazards and enemies.
+The player needs to navigate platforms safely while avoiding hazards and enemies, with responsive controls.
 ### 17.3 Challenge
 The challenge comes from:
 - platform spacing
@@ -526,15 +526,17 @@ The challenge comes from:
 - hazards
 - enemies
 - increasing difficulty across levels
+- lives system
 
 ### 17.4 Reward
 The reward comes from:
 - successful level completion
 - surviving difficult sections
-- collecting optional items
-- reaching later stages
+- reaching the goal flag and activating the level complete state.
 - improving personal performance through repeated attempts
-This loop supports replayability and encourages the player to keep trying even after failure.
+
+### 17.5 Evaluation of Motivation Loop
+The motivation loop is simple but suitable for the prototype. It gives the player a clear aim, understandable risks and immediate feedback after success or failure. In future development, the loop could be improved with collectibles, score tracking, sound effects and multiple levels to increase replay value.
 
 ---
 
