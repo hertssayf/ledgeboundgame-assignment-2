@@ -542,16 +542,19 @@ The motivation loop is simple but suitable for the prototype. It gives the playe
 
 ## 18.0 Game Rules
 
-The rules of LedgeBound are:
-- The player begins each level at a start point
-- The player must use movement and jumping to navigate the stage
-- Touching hazards or enemies causes damage resulting in failure or life loss
-- Falling off the level causes failure
-- Reaching the end goal completes the level
-- Lives limit how many mistakes the player can make before a game over condition occurs.
-- Collectibles are optional but reward exploration
-- The final level ends in victory if completed
-These rules ensure the player always understands both their objective and the consequences of their actions.
+The final game rules are:
+* The player begins at a defined spawn point.
+* The player uses keyboard controls to move and jump.
+* The player must avoid spike hazards and slime enemies.
+* Touching a hazard or enemy causes the player to take damage or respawn.
+* Falling below the level triggers the fail/death behaviour.
+* The player has a limited number of lives.
+* If lives remain, the player can retry or continue from the spawn point.
+* If all lives are lost, the game over state is shown.
+* Reaching the goal flag completes the level.
+* Optional systems such as collectibles, checkpoints and shops are future development features.
+
+These rules keep the prototype clear and testable. The player always knows what they must do, what counts as failure and how to complete the level.
 
 ---
 
