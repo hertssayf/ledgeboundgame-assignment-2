@@ -13,11 +13,11 @@ it is found here: [Scripts](./Scripts)
 | T1 | Player Movement | Press left and right controls | Player moves correctly in both directions | Pass | Complete | Core movement functioning |
 | T2 | Jump Mechanic | Press jump while grounded | Player jumps and lands correctly | Pass | Complete | Jump functioning |
 | T3 | Platform Collision | Land on platforms from multiple positions | Player stands correctly and does not fall through | Pass | Complete | Stable in current test scene |
-| T4 | Hazard Collision | Touch spikes | Player loses life or fails correctly | Pass | In Progress | Confirmed working with spikes |
-| T5 | Enemy Collision | Touch slime enemy | Player takes damage or fails correctly | Pass | In Progress | In work |
-| T6 | End Goal | Reach level goal trigger | Level completes or next level loads | Pass | In Progress | In work |
-| T7 | Retry System | Fail a level | Player restarts correctly | Pass | In Progress | Linked to lives logic |
-| T8 | Lives Display | Take repeated damage | Lives decrease correctly and remain visible | Pass | Planned | UI still being refined |
+| T4 | Hazard Collision | Touch spikes | Player loses life or fails correctly | Pass | Complete | Confirmed working with spikes |
+| T5 | Enemy Collision | Touch slime enemy | Player takes damage or fails correctly | Pass | Complete | done in Sprint2 |
+| T6 | End Goal | Reach level goal trigger | Level completes or next level loads | Pass | Complete | done in Sprint2 |
+| T7 | Retry System | Fail a level | Player restarts correctly | Pass | Complete | Linked to lives logic |
+| T8 | Lives Display | Take repeated damage | Lives decrease correctly and remain visible | Pass | Complete | UI still being refined |
 | T9 | Level Indicator | Load different levels | Correct level number is displayed | Pass | Planned | Requires multi-level integration |
 | T10 | Cosmetic Collectibles | Touch collectible item | Item disappears and reward is registered | Pass | Planned | Optional feature |
 | T11 | Sound Feedback | Trigger jump, damage and finish actions | Correct sound plays | Pass | Planned | Audio to be finalised |
@@ -27,8 +27,8 @@ it is found here: [Scripts](./Scripts)
 | T15 | Checkpoint System | Activate checkpoint then fail | Respawn occurs at checkpoint | Pass | Planned | Lower priority |
 | T16 | Shop / Unlockable Items | Access shop and unlock an item | Shop logic works correctly if implemented | Pass | Planned | Stretch target only |
 | T17 | Stars / Extra Items | Collect stars/items on a level | Collection is recorded correctly | Pass | Planned | Stretch target only |
-| T18 | Dash mechanic | Press dash key while moving | Player quickly dashes in the chosen direction | Pass | Sprint2 feature |
-| T19 | Double jump | Press jump once on ground, then again in air | Player performs one extra jump only | Pass | Sprint2 feature |
+| T18 | Dash mechanic | Press dash key while moving | Player quickly dashes in the chosen direction | Pass | Complete | Sprint2 feature |
+| T19 | Double jump | Press jump once on ground, then again in air | Player performs one extra jump only | Pass | Complete | Sprint2 feature |
 ---
 
 ## Test Log Evaluation
