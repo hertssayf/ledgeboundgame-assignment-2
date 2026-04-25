@@ -19,21 +19,23 @@ This repository contains the game **LedgeBound** developed for the Software Deve
 
 ---
 
-## Table Of Contents For Updated Assignment 2 Changes
+## Table of Contents – Assignment 2 README Updates
 
-- [Project Decision](#24-project-decision-2d-side-scrolling-platformer)
-- [Project Aim and Objectives](#40-project-aim-and-objectives)
-- [Overall Specification](#50-overall-specification--ledge-bound)
-- [User and System Requirements](#60-user-and-system-requirements)
-- [Overall Design and Development Strategy](#90-overall-design-and-development-strategy)
-- [Artwork and Visual Design](#130-artwork-and-visual-design)
+- [Overall Specification – LedgeBound](#50-overall-specification--ledgebound)
+- [Scrum-Style User Stories](#70-scrum-style-user-stories)
+- [Updated Scrum Product Backlog](#80-updated-scrum-product-backlog)
+- [Sprint 2 Design and Development Updates](#93-sprint-2-design-and-development-updates)
+- [Final Level Structure](#153-final-level-structure)
 - [Gameplay and Core Mechanics](#160-gameplay-and-core-mechanics)
-- [State Management](#190-state-management)
-- [Programming Language and Platform](#210-programming-language-and-platform)
-- [Basic Pseudocode](#240-basic-pseudocode)
-- [Project Management Approach](#250-project-management-approach)
+- [Player Motivation Loop](#170-player-motivation-loop)
+- [Game Rules](#180-game-rules)
+- [User Interface and Controls](#220-user-interface-and-controls)
+- [Final Technical Challenge Evaluation](#237-final-technical-challenge-evaluation)
 - [Testing Strategy](#260-testing-strategy)
-- [Evaluation](#270-evaluation)
+- [Final Evaluation](#270-final-evaluation)
+- [Scripts Folder and Code Module Explanation](#280-scripts-folder-and-code-module-explanation)
+- [Software Tools and Coding Techniques](#290-software-tools-and-coding-techniques)
+- [User Guide and Operating Instructions](#300-user-guide-and-operating-instructions)
 
 ---
 
@@ -791,77 +793,159 @@ Detailed testing evidence such as the test plan and log is found in: [Testing.md
 ## 27.0 Final Evaluation
 Evaluating what has been done after both sprint 1 & 2 and what is in future development.
 
-### 27.1 Evidence of Progress Against the Design Specification
-The project demonstrates progress against the design specification through the following completed or clearly defined areas and implemented or in active development below:
+### 27.1 Final Progress Against the Design Specification
 
-### 27.2 Completed or Strongly Defined:
-- Project concept and scope
-- Target audience review
-- User requirements and system requirements
-- Scrum user stories
-- Prioritised product backlog with definitions and tests
-- Game story, characters and environment planning
-- Gameplay mechanics and rules
-- State management planning
-- Platform and input decisions
-- Software tools and coding techniques
-- Backlog reviews
-- Development review meetings
-- Burndown tracking
-- Testing strategy and test plan
-- Research resources (Refrences)
+The final Sprint 2 version of LedgeBound demonstrates the main requirements of the project. The prototype includes a playable 2D platformer level with player movement, jumping, platform collision, hazards, slime enemies, lives feedback and a goal flag. These features show that the project moved beyond planning and became a working software prototype.
 
-### 27.3 Implemented or In Active Development:
-- Unity project setup
-- Player movement
-- Jump behaviour
-- Platform collision logic
-- Hazard planning and testing
-- Slime enemy planning and integration
-- UI planning for lives and level number
-- Level progression structure
-- Optional collectible systems
+The most successful part of the project is the core gameplay loop. The player can move through the level, avoid danger, lose lives and complete the stage. This satisfies the main purpose of the game and provides a clear basis for testing.
 
-This shows the systematically development of the project and that implementation is being measured against the original requirements, user stories, backlog and testing expectations. The acceptance criteria for the prototype is not completed as development is still in progress, the criteria should be met in the second stint.
+### 27.2 Completed Features
+
+| Feature                          | Status           | Evidence / Comment                                                    |
+| -------------------------------- | ---------------- | --------------------------------------------------------------------- |
+| Player movement                  | Complete         | Implemented through PrototypePlayer.cs.                               |
+| Jump mechanic                    | Complete         | Uses grounded checks and Rigidbody2D movement.                        |
+| Platform collision               | Complete         | Player can land on ground and platforms.                              |
+| Spike hazards                    | Complete         | Hazard.cs handles player contact.                                     |
+| Slime enemies                    | Complete         | EnemyPatrol.cs supports enemy obstacle behaviour.                     |
+| Goal flag                        | Complete         | GoalFlag.cs triggers level complete behaviour.                        |
+| Lives system                     | Complete         | PrototypePlayer.cs and PrototypeGameManager.cs support fail feedback. |
+| Level UI                         | Complete         | Lives and level number provide gameplay feedback.                     |
+| Game over panel                  | Complete         | Shows fail condition when lives run out.                              |
+| Level complete panel             | Complete         | Shows success when the player reaches the goal.                       |
+| Testing documentation            | Complete         | Testing.md records test cases and outcomes.                           |
+| Project management documentation | Complete         | Backlog reviews, meetings and burndown chart are documented.          |
+
+### 27.3 Partially Completed or Future Features
+
+| Feature                  | Final Decision              | Reason                                                           |
+| ------------------------ | --------------------------- | ---------------------------------------------------------------- |
+| Multiple levels          | Future development          | One stable level was prioritised over several unfinished levels. |
+| Checkpoints              | Future development          | Useful, but not essential for the core prototype.                |
+| Collectibles             | Future development          | Adds replayability but does not affect core gameplay.            |
+| Shop system              | Future development          | Too large for the final prototype scope.                         |
+| Advanced enemy behaviour | Future development          | Basic enemy behaviour was prioritised first.                     |
+| Sound effects            | Future development          | Helpful for feedback but lower priority than mechanics.          |
+
+### 27.4 Evaluation Against Good Software Design Principles
+
+The project demonstrates several good software design principles:
+- **Correctness:** Core features were tested against expected results, including movement, jumping, hazards and goal completion.
+- **Robustness:** The game handles failure states such as hazards, falling and losing lives.
+- **Maintainability:** Scripts are separated by responsibility, making the project easier to understand and edit.
+- **Reusability:** The hazard script can be attached to multiple spike objects, and the enemy script can be reused for multiple slime enemies.
+- **Modularisation:** Player, hazard, enemy, goal and game manager behaviours are placed in separate scripts.
+- **High cohesion:** Each script focuses on a specific responsibility.
+- **Low coupling:** Scripts interact through clear methods such as player damage or game state updates rather than placing all logic in one script.
+- **Minimised duplication:** Reusable scripts reduce the need to repeat similar collision or damage logic across different objects.
+
+### 27.5 Overall Evaluation
+
+Overall, the final Sprint 2 prototype meets the acceptance criteria specification by demonstrating a playable and testable 2D platformer. The project is strongest in its core mechanics, project documentation and evidence of iterative improvement. The main limitation is that some expanded features were not implemented due to time and scope. However, this was a suitable decision because a stable core prototype is more valuable than several unfinished optional features.
+
+Future development should focus on adding more levels, checkpoints, collectibles, sound effects and more advanced enemy behaviour. These additions would improve replayability and polish while building on the stable core already created.
+
+---
 
 ## 28.0 Scripts Folder
 The Scripts folder is responsible for the scripts i created in development,
 it is found here: [Scripts](./Scripts)
+
+The scripts are separated by responsibility so that the project is easier to maintain, test and explain.
+
+| Script                  | Main Responsibility                                                            | Good Design Link                                                                   |
+| ----------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| PrototypePlayer.cs      | Controls player movement, jumping, lives, damage and respawn behaviour.        | High cohesion because player-related behaviour is kept in one main player script.  |
+| Hazard.cs               | Detects when the player touches a hazard and calls the player hit logic.       | Reusable because the same script can be attached to multiple spike objects.        |
+| EnemyPatrol.cs          | Controls slime enemy movement and obstacle behaviour.                          | Modular because enemy behaviour is separated from player and hazard code.          |
+| GoalFlag.cs             | Detects when the player reaches the end goal and triggers level completion.    | Clear responsibility because goal completion is handled separately.                |
+| PrototypeGameManager.cs | Manages wider game state, UI feedback, level complete and game over behaviour. | Improves maintainability by keeping game state logic away from individual objects. |
+
+This structure helps reduce duplicated code and makes the project easier to debug. For example, if a spike hazard is not working, the Hazard.cs script can be checked without needing to edit the player movement code. If the level complete panel is not showing, GoalFlag.cs and PrototypeGameManager.cs can be reviewed separately.
 
 ---
 
 ## 29.0 Software Tools and Coding Techniques
 
 ### 29.1 Software Tools Used
-| Tool | Purpose |
-|---|---|
-| Unity | Main development engine |
-| Visual Studio / VS Code | Writing and debugging C# scripts |
-| GitHub | Version control and documentation |
-| Diagram / Flowchart tool: Draw.io | Planning logic and state flow |
 
-### 29.2 Coding Techniques Used
+| Tool                    | Purpose                           | Justification                                                                                   |
+| ----------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Unity                   | Main game engine                  | Provides 2D physics, tilemaps, colliders, scene tools and UI systems suitable for a platformer. |
+| C#                      | Programming language              | Integrates directly with Unity and supports object-oriented scripting.                          |
+| Visual Studio / VS Code | Code editing                      | Used to write, edit and organise C# scripts.                                                    |
+| GitHub                  | Version control and documentation | Used to store the project, README, testing evidence and development history.                    |
+| Draw.io                 | Diagrams and planning             | Used to create state diagrams and planning visuals.                                             |
+| Unity Play Mode         | Testing and debugging             | Used to repeatedly test movement, collisions, hazards and UI behaviour.                         |
+
+### 29.2 Alternatives Considered
+
+Alternative tools such as Godot and Unreal Engine were possible, but Unity was selected because it is widely used for 2D game development and provides a suitable balance between power and accessibility. Unreal Engine would have been more complex for a small 2D prototype, while Godot is lightweight but was less familiar for this project. Unity was therefore the most suitable choice because it supports 2D physics, C# scripts, tilemaps and quick playtesting.
+
+### 29.3 Coding Techniques Used
 The project uses:
-- object-oriented programming
-- modular script design
-- reusable scripts where possible
-- conditionals and loops
-- trigger-based interactions
-- scene management
-- state-based logic
-- debugging through Unity console output and repeated playtesting
+- Object-oriented programming.
+- Modular script design.
+- Serialized fields for easier Unity Inspector editing.
+- Rigidbody2D physics.
+- Collider2D and trigger-based interactions.
+- Conditional logic for lives, death and level completion.
+- Reusable scripts for hazards and enemies.
+- Unity UI panels for game over and level complete feedback.
+- Debugging through Play Mode testing and Unity Inspector checks.
 
-### 29.3 Maintainability and Reusability
+### 29.4 Maintainability and Reusability
 Scripts are designed to be reusable wherever possible. For example:
 - one enemy controller can be used across multiple slime enemies
 - one collectible script can manage many pickups
 - one hazard script can be attached to multiple traps
 
-This reduces duplicated code and improves maintainability.
+This reduces duplicated code and improves maintainability and future development.
+
+### 29.5 Limitations of the Current Technical Approach
+
+The prototype is functional, but it is still a small project. Some logic is simplified, and future versions would benefit from more advanced scene management, better enemy AI, improved animation handling and stronger audio feedback. However, for the assignment scope, the current approach is appropriate because it demonstrates the main platformer mechanics clearly and keeps the code understandable.
 
 ---
 
-## 30.0 References
+## 30.0 User Guide and Operating Instructions
+
+### 30.1 How to Open the Project
+
+1. Download or clone the GitHub repository.
+2. Open Unity Hub.
+3. Select **Add Project**.
+4. Choose the LedgeBound project folder.
+5. Open the project in the correct Unity version.
+6. Open the main gameplay scene.
+7. Press the **Play** button in Unity to run the prototype.
+
+### 30.2 How to Play
+
+The aim of the game is to control Dexter, avoid danger and reach the goal flag at the end of the level using keyboard controls.
+
+### 30.3 Win Condition
+
+The player wins or completes the level by reaching the goal flag. This activates the level complete panel.
+
+### 30.4 Lose Condition
+
+The player loses lives by touching hazards, touching enemies or falling below the level. If all lives are lost, the game over state is shown.
+
+### 30.5 Troubleshooting
+
+| Issue                        | Possible Fix                                                               |
+| ---------------------------- | -------------------------------------------------------------------------- |
+| Player does not move         | Check that PrototypePlayer.cs is attached and Rigidbody2D exists.          |
+| Player cannot jump           | Check the ground check object, ground layer and jump settings.             |
+| Spikes do not damage player  | Check that Hazard.cs is attached and the collider/trigger is configured.   |
+| Slime does not appear        | Check the slime position, sprite renderer, sorting layer and camera view.  |
+| Goal does not complete level | Check that GoalFlag.cs is attached and the goal collider is set correctly. |
+| UI does not update           | Check references in PrototypeGameManager.cs and assigned UI objects.       |
+
+---
+
+## 31.0 References
 Downloaded the following free Sprite Assets to use in unity:
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/7e32ad99-7494-4991-8777-3e6dbb6d9ee6" />
 
