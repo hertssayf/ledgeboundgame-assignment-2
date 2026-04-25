@@ -636,7 +636,7 @@ Unity was chosen because it provides strong support for:
 | Move Right | D / Right Arrow |
 | Jump | Space |
 | Double Jump | Press Space again while airborne |
-| Dash | Left Shift |
+| Dash | X |
 | Navigation | Left Mouse Click |
 
 ### 22.2 Implemented UI Elements
